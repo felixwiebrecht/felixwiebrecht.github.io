@@ -27,7 +27,7 @@ title: Home
     
     <p> My research is located at the intersection of public policy, public administration, and comparative politics. Broadly, it explores how political institutions and actors shape policymaking processes and outcomes, particularly in non-democratic contexts. I also research the reverse mechanism of how policies and governance characteristics affect political dynamics. I study these questions with a regional focus on China and Southeast Asia as well as cross-nationally. My research employs multiple methods, including causal inference, panel regressions, text-as-data, and elite surveys. </p>
 
-    <p>My work has been published in the <em>British Journal of Political Science</em>, <em>China Quarterly</em>, <em>Democratization</em>, <em>Political Research Quarterly</em>, <em>Public Management Review</em>, <em>Journal of Development Studies</em>, <em>Policy &amp; Politics</em>, and <em>Journal of East Asian Studies</em>, among others.</p>
+    <p>My work has been published in the <em>British Journal of Political Science</em>, <em>The China Quarterly</em>, <em>Democratization</em>, <em>Political Research Quarterly</em>, <em>Public Management Review</em>, <em>Journal of Development Studies</em>, <em>Policy &amp; Politics</em>, and <em>Journal of East Asian Studies</em>, among others.</p>
 
     <p>My research has received support from the Research Grants Council of Hong Kong, the British Academy, the American Political Science Association, the Political Studies Association, and the Institute for Humane Studies.</p>
 
