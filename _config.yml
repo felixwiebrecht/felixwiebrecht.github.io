@@ -1,0 +1,28 @@
+title: Felix Wiebrecht
+description: Lecturer in Politics, University of Liverpool
+url: "https://www.felixwiebrecht.com"
+baseurl: ""
+
+author:
+  name: Felix Wiebrecht
+  email: felix.wiebrecht@liverpool.ac.uk
+  twitter: https://twitter.com/felixwiebrecht
+  linkedin: https://www.linkedin.com/in/felixwiebrecht
+  scholar: https://scholar.google.com/citations?user=-fER2twAAAAJ&hl=en&oi=ao
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
