@@ -13,7 +13,7 @@ title: Home
     <ul class="sidebar-links">
       <li><span class="link-label">&#128205;</span> London, UK</li>
       <li><span class="link-label">&#9993;</span> <a href="mailto:felix.wiebrecht@liverpool.ac.uk">felix.wiebrecht@liverpool.ac.uk</a></li>
-      <li><span class="link-label">&#127760;</span> <a href="https://drive.google.com/file/d/1utAiRBhuNGeVACK-OMcAn-UqUFx-7M1Y/view?usp=sharing" target="_blank">CV</a></li>
+      <li><span class="link-label">&#127760;</span> <a href="/CV.pdf" target="_blank">CV</a></li>
       <li><span class="link-label">&#128218;</span> <a href="https://scholar.google.com/citations?user=-fER2twAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a></li>
       <li><span class="link-label">in</span> <a href="https://www.linkedin.com/in/felixwiebrecht" target="_blank">LinkedIn</a></li>
       <li><span class="link-label">&#120143;</span> <a href="https://twitter.com/felixwiebrecht" target="_blank">Twitter / X</a></li>
