@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<p>I study political institutions and public policy in authoritarian regimes. My research examines how these institutions shape elite behavior and policymaking processes, influence policy outcomes, and develop and change over time.</p>
+<p>I study political institutions and public policy primarily in authoritarian regimes. My research examines how these institutions shape elite behavior and policymaking processes, influence policy outcomes, and develop and change over time.</p>
 
 <h2 class="section-title">Published Articles</h2>
 
