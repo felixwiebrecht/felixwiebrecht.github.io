@@ -141,22 +141,22 @@ permalink: /research/
 const data = {
   nodes: [
     { id: "Felix Wiebrecht", self: true },
-    { id: "Marike Blanken" },
-    { id: "Adea Gafuri" },
-    { id: "Fabio Angiolillo" },
-    { id: "Staffan I. Lindberg" },
-    { id: "Marina Nord" },
-    { id: "Martin Lundstedt" },
-    { id: "Yuko Sato" },
-    { id: "Biao Huang" },
-    { id: "Xiaodie Wu" },
-    { id: "Vanessa Boese-Schlosser" },
-    { id: "Natalia Natsika" },
-    { id: "Kelly Morrison" },
-    { id: "Ozlem Tuncel" },
-    { id: "Thareerat Laohabut" },
-    { id: "J.F. Downes" },
-    { id: "E.K.F. Chan" }
+    { id: "Marike Blanken", papers: 1 },
+    { id: "Adea Gafuri", papers: 1 },
+    { id: "Fabio Angiolillo", papers: 6 },
+    { id: "Staffan I. Lindberg", papers: 5 },
+    { id: "Marina Nord", papers: 3 },
+    { id: "Martin Lundstedt", papers: 4 },
+    { id: "Yuko Sato", papers: 4 },
+    { id: "Biao Huang", papers: 2 },
+    { id: "Xiaodie Wu", papers: 1 },
+    { id: "Vanessa Boese-Schlosser", papers: 1 },
+    { id: "Natalia Natsika", papers: 1 },
+    { id: "Kelly Morrison", papers: 1 },
+    { id: "Ozlem Tuncel", papers: 1 },
+    { id: "Thareerat Laohabut", papers: 1 },
+    { id: "J.F. Downes", papers: 2 },
+    { id: "E.K.F. Chan", papers: 2 }
   ],
   links: [
     { source: "Felix Wiebrecht", target: "Marike Blanken" },
@@ -173,13 +173,12 @@ const data = {
     { source: "Felix Wiebrecht", target: "Kelly Morrison" },
     { source: "Felix Wiebrecht", target: "Ozlem Tuncel" },
     { source: "Felix Wiebrecht", target: "Thareerat Laohabut" },
+    { source: "Felix Wiebrecht", target: "J.F. Downes" },
+    { source: "Felix Wiebrecht", target: "E.K.F. Chan" },
     { source: "Fabio Angiolillo", target: "Staffan I. Lindberg" },
     { source: "Fabio Angiolillo", target: "Marina Nord" },
     { source: "Fabio Angiolillo", target: "Martin Lundstedt" },
     { source: "Fabio Angiolillo", target: "Yuko Sato" },
-    { source: "Fabio Angiolillo", target: "Vanessa Boese-Schlosser" },
-    { source: "Fabio Angiolillo", target: "Natalia Natsika" },
-    { source: "Fabio Angiolillo", target: "Kelly Morrison" },
     { source: "Staffan I. Lindberg", target: "Marina Nord" },
     { source: "Staffan I. Lindberg", target: "Martin Lundstedt" },
     { source: "Staffan I. Lindberg", target: "Yuko Sato" },
@@ -189,19 +188,20 @@ const data = {
     { source: "Marina Nord", target: "Martin Lundstedt" },
     { source: "Marina Nord", target: "Yuko Sato" },
     { source: "Martin Lundstedt", target: "Yuko Sato" },
+    { source: "Martin Lundstedt", target: "Vanessa Boese-Schlosser" },
+    { source: "Martin Lundstedt", target: "Natalia Natsika" },
+    { source: "Martin Lundstedt", target: "Kelly Morrison" },
+    { source: "Vanessa Boese-Schlosser", target: "Natalia Natsika" },
+    { source: "Vanessa Boese-Schlosser", target: "Kelly Morrison" },
+    { source: "Vanessa Boese-Schlosser", target: "Yuko Sato" },
+    { source: "Natalia Natsika", target: "Kelly Morrison" },
+    { source: "Natalia Natsika", target: "Yuko Sato" },
+    { source: "Kelly Morrison", target: "Yuko Sato" },
     { source: "Biao Huang", target: "Xiaodie Wu" },
-    { source: "Felix Wiebrecht", target: "J.F. Downes" },
-    { source: "Felix Wiebrecht", target: "E.K.F. Chan" },
-    { source: "J.F. Downes", target: "E.K.F. Chan" }
+    { source: "J.F. Downes", target: "E.K.F. Chan" },
+    { source: "Marike Blanken", target: "Adea Gafuri" }
   ]
 };
-
-const connectionCount = {};
-data.nodes.forEach(n => connectionCount[n.id] = 0);
-data.links.forEach(l => {
-  connectionCount[l.source]++;
-  connectionCount[l.target]++;
-});
 
 const width = document.getElementById("network-container").offsetWidth;
 const height = 500;
@@ -218,7 +218,7 @@ const simulation = d3.forceSimulation(data.nodes)
 
 function nodeRadius(d) {
   if (d.self) return 20;
-  return 8 + connectionCount[d.id] * 2;
+  return 8 + (d.papers || 1) * 3;
 }
 
 const link = svg.append("g")
@@ -284,11 +284,17 @@ select.addEventListener("change", function () {
   }
   const connected = new Set([selected]);
   data.links.forEach(l => {
-    if (l.source.id === selected) connected.add(l.target.id);
-    if (l.target.id === selected) connected.add(l.source.id);
+    const src = typeof l.source === "object" ? l.source.id : l.source;
+    const tgt = typeof l.target === "object" ? l.target.id : l.target;
+    if (src === selected) connected.add(tgt);
+    if (tgt === selected) connected.add(src);
   });
   node.attr("opacity", d => connected.has(d.id) ? 1 : 0.15);
-  link.attr("opacity", l => (l.source.id === selected || l.target.id === selected) ? 1 : 0.05);
+  link.attr("opacity", l => {
+    const src = typeof l.source === "object" ? l.source.id : l.source;
+    const tgt = typeof l.target === "object" ? l.target.id : l.target;
+    return (src === selected || tgt === selected) ? 1 : 0.05;
+  });
   label.attr("opacity", d => connected.has(d.id) ? 1 : 0.15);
 });
 
