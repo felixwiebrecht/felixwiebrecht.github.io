@@ -68,6 +68,15 @@ const data = {
     { source: "Marina Nord", target: "Martin Lundstedt" },
     { source: "Marina Nord", target: "Yuko Sato" },
     { source: "Martin Lundstedt", target: "Yuko Sato" },
+    { source: "Martin Lundstedt", target: "Vanessa Boese-Schlosser" },
+    { source: "Martin Lundstedt", target: "Natalia Natsika" },
+    { source: "Martin Lundstedt", target: "Kelly Morrison" },
+    { source: "Vanessa Boese-Schlosser", target: "Natalia Natsika" },
+    { source: "Vanessa Boese-Schlosser", target: "Kelly Morrison" },
+    { source: "Vanessa Boese-Schlosser", target: "Yuko Sato" },
+    { source: "Natalia Natsika", target: "Kelly Morrison" },
+    { source: "Natalia Natsika", target: "Yuko Sato" },
+    { source: "Kelly Morrison", target: "Yuko Sato" },
     { source: "Biao Huang", target: "Xiaodie Wu" }
   ]
 };
