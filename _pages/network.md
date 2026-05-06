@@ -34,7 +34,9 @@ const data = {
     { id: "Natalia Natsika", papers: 1 },
     { id: "Kelly Morrison", papers: 1 },
     { id: "Ozlem Tuncel", papers: 1 },
-    { id: "Thareerat Laohabut", papers: 1 }
+    { id: "Thareerat Laohabut", papers: 1 },
+    { id: "J.F. Downes", papers: 2 },
+    { id: "E.K.F. Chan", papers: 2 }
   ],
   links: [
     { source: "Felix Wiebrecht", target: "Marike Blanken" },
@@ -74,7 +76,10 @@ const data = {
     { source: "Natalia Natsika", target: "Kelly Morrison" },
     { source: "Natalia Natsika", target: "Yuko Sato" },
     { source: "Kelly Morrison", target: "Yuko Sato" },
-    { source: "Biao Huang", target: "Xiaodie Wu" }
+    { source: "Biao Huang", target: "Xiaodie Wu" },
+    { source: "Felix Wiebrecht", target: "J.F. Downes" },
+    { source: "Felix Wiebrecht", target: "E.K.F. Chan" },
+    { source: "J.F. Downes", target: "E.K.F. Chan" }
   ]
 };
 
