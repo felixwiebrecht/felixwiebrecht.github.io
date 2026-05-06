@@ -41,7 +41,6 @@ const data = {
   links: [
     { source: "Felix Wiebrecht", target: "Marike Blanken" },
     { source: "Felix Wiebrecht", target: "Adea Gafuri" },
-    { source: "Marike Blanken", target: "Adea Gafuri" },
     { source: "Felix Wiebrecht", target: "Fabio Angiolillo" },
     { source: "Felix Wiebrecht", target: "Staffan I. Lindberg" },
     { source: "Felix Wiebrecht", target: "Marina Nord" },
@@ -79,7 +78,8 @@ const data = {
     { source: "Biao Huang", target: "Xiaodie Wu" },
     { source: "Felix Wiebrecht", target: "J.F. Downes" },
     { source: "Felix Wiebrecht", target: "E.K.F. Chan" },
-    { source: "J.F. Downes", target: "E.K.F. Chan" }
+    { source: "J.F. Downes", target: "E.K.F. Chan" },
+    { source: "Marike Blanken", target: "Adea Gafuri" }
   ]
 };
 
