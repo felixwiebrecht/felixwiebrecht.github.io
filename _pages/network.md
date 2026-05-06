@@ -90,8 +90,14 @@ const svg = d3.select("#coauthor-network")
   .attr("width", width)
   .attr("height", height);
 
+const nodeById = new Map(data.nodes.map(d => [d.id, d]));
+data.links.forEach(l => {
+  l.source = nodeById.get(l.source) || l.source;
+  l.target = nodeById.get(l.target) || l.target;
+});
+
 const simulation = d3.forceSimulation(data.nodes)
-  .force("link", d3.forceLink(data.links).id(d => d.id).distance(120))
+  .force("link", d3.forceLink(data.links).distance(120))
   .force("charge", d3.forceManyBody().strength(-300))
   .force("center", d3.forceCenter(width / 2, height / 2))
   .force("collision", d3.forceCollide().radius(d => nodeRadius(d) + 10));
