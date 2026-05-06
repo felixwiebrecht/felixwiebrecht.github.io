@@ -100,7 +100,7 @@ published:
 # Book Chapters
 book_chapters:
   - title: "The Third Wave of Autocratization"
-    coauthors: "Fabio Angiolillo, Martin Lundstedt, Marina Nord, Yuko Sato, and Staffan I. Lindberg"
+    coauthors: "<a href='https://www.fangiolillo.com/' target='_blank'>Fabio Angiolillo</a>, Martin Lundstedt, Marina Nord, <a href='https://yukosato.github.io/' target='_blank'>Yuko Sato</a>, and Staffan I. Lindberg"
     year: "Forthcoming"
     book: "Encyclopedia of Authoritarianism"
     editors: "T. Ambrosio and S. Hall (Eds.)"
