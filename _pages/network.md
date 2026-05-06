@@ -4,7 +4,7 @@ title: Co-Author Network
 permalink: /network/
 ---
 
-<h2 class="section-title">Co-Author Network</h2>
+<h2 class="section-title">Co-Authorship Network</h2>
 
 <div id="network-controls">
   <select id="author-select">
