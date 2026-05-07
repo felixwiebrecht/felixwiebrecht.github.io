@@ -127,7 +127,7 @@ book_chapters:
     publisher: "ibidem-Verlag/Columbia University Press"
 
 # Working Papers
-
+working_papers:
   - title: "Parliamentary Elites in Authoritarian Regimes (PEAR): New Data"
     coauthors: ""
     status: "Under Review"
