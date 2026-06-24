@@ -135,10 +135,10 @@ working_papers:
     tags: [Authoritarianism, legislatures, members of parliament, political elites, data]
     abstract: "Authoritarian politics are largely defined and shaped by elite politics. Yet, our knowledge about political elites in nondemocracies remains confined to those in particular regimes or, cross-nationally, leaders at the highest echelons of decision-making. This article introduces a novel dataset, Parliamentary Elites in Authoritarian Regimes (PEAR), that fills this gap. With currently more than 221,000 observations on individual MPs from 819 legislative terms in 130 authoritarian regimes from 1945 to 2024, PEAR is based on the largest individual-level demographic database on national legislators ever assembled and provides unprecedented information about elites in authoritarian regimes. I first present how the dataset was created and validate it by matching the data against existing data. I then replicate existing analyses on the determinants of legislative turnover originating from democracies and illustrate further potential applications of the new data. PEAR will be an invaluable resource for our understanding of authoritarian regimes."
 
-  - title: "The House Approves: Policy Outcomes are Better Explained by Legislatures' Positions Than by Executives' Preferences"
+  - title: "Legislative Political Environments and Policy Outcomes"
     coauthors: "<a href='https://www.fangiolillo.com/' target='_blank'>Fabio Angiolillo</a>"
-    status: "In Progress"
-    url: "https://www.v-dem.net/media/publications/wp146.pdf"
+    status: "Under Review"
+    url: "https://preprints.apsanet.org/engage/apsa/article-details/6a33cb8b810b9dcc824bf96c"
     tags: [Legislatures, Policymaking]
 
   - title: "Authoritarian Parties' Internal Networks and the Effects on Clientelism"
