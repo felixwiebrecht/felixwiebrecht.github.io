@@ -1,0 +1,159 @@
+/* Asset viewer (Figures, Tables & Markdown pages) */
+.asset-page {
+  --asset-bg: #f7f8fb;
+  --asset-panel: #ffffff;
+  --asset-text: #222;
+  --asset-muted: #666;
+  --asset-line: #ddd;
+  --asset-link: #2a5db0;
+  --asset-active: #2a5db0;
+  --asset-active-text: #ffffff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.asset-page .asset-local-nav { margin-bottom: 1.2em; }
+.asset-page .asset-local-nav a { color: var(--asset-link); font-size: 0.85em; }
+
+.asset-page h1 {
+  color: var(--asset-text);
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin: 0 0 0.25em;
+  font-family: "Georgia", serif;
+}
+
+.asset-page .subtitle {
+  color: var(--asset-muted);
+  margin: 0 0 0.5em;
+  font-size: 0.95em;
+}
+
+.asset-page .citation {
+  color: var(--asset-muted);
+  margin: 0 0 1.6em;
+  font-size: 0.88em;
+  max-width: 920px;
+  line-height: 1.5;
+}
+
+.asset-shell {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 1.2em;
+}
+
+.selector {
+  align-self: start;
+  background: var(--asset-panel);
+  border: 1px solid var(--asset-line);
+  border-radius: 6px;
+  max-height: calc(100vh - 140px);
+  overflow: auto;
+  padding: 0.6em;
+  position: sticky;
+  top: 5.5em;
+}
+
+.selector-label {
+  color: var(--asset-muted);
+  font-size: 0.72em;
+  font-weight: 700;
+  margin: 0.3em 0.5em 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.asset-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--asset-text);
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 0.88em;
+  line-height: 1.2;
+  margin: 0.15em 0;
+  padding: 0.55em 0.65em;
+  text-align: left;
+  width: 100%;
+}
+
+.asset-btn span { color: var(--asset-muted); font-size: 0.9em; }
+.asset-btn:hover { background: #f0f4ff; }
+.asset-btn.active { background: var(--asset-active); color: var(--asset-active-text); }
+.asset-btn.active span { color: var(--asset-active-text); }
+
+.viewer {
+  background: var(--asset-panel);
+  border: 1px solid var(--asset-line);
+  border-radius: 6px;
+  min-height: 480px;
+  padding: 1.1em 1.2em;
+}
+
+.viewer-head {
+  align-items: flex-start;
+  border-bottom: 1px solid var(--asset-line);
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding-bottom: 0.8em;
+}
+
+.viewer h2 { color: var(--asset-text); font-size: 1.25em; line-height: 1.2; margin: 0; }
+.viewer .kind { color: var(--asset-muted); font-size: 0.85em; margin-top: 0.25em; }
+.viewer .open-file { color: var(--asset-link); font-size: 0.85em; white-space: nowrap; }
+.viewer .open-file:hover { text-decoration: underline; }
+
+.media-list { display: grid; gap: 1em; margin-bottom: 1em; }
+
+.asset-img {
+  background: #fff;
+  border: 1px solid var(--asset-line);
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  max-height: 70vh;
+  max-width: 100%;
+}
+
+.table-img { height: auto; max-height: none; width: 100%; }
+
+.asset-page .caption { color: var(--asset-text); font-size: 0.92em; max-width: 860px; }
+.asset-page .caption p { margin: 0 0 0.6em; }
+
+.table-render, .markdown-panel {
+  background: #fbfcff;
+  border: 1px solid var(--asset-line);
+  border-radius: 4px;
+  margin-top: 0.9em;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.table-render pre, .markdown-panel pre {
+  color: var(--asset-text);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.8em;
+  line-height: 1.55;
+  margin: 0;
+  padding: 1em;
+  white-space: pre-wrap;
+}
+
+.data-table { background: #fff; border-collapse: collapse; color: var(--asset-text); font-size: 0.85em; min-width: 500px; width: 100%; }
+.data-table th, .data-table td { border: 1px solid var(--asset-line); padding: 0.5em 0.65em; text-align: left; vertical-align: top; }
+.data-table th { background: #eef2ff; font-weight: 700; }
+
+.asset-page .empty { color: var(--asset-muted); font-style: italic; }
+
+@media (max-width: 780px) {
+  .asset-shell { grid-template-columns: 1fr; }
+  .selector { max-height: none; position: static; }
+  .viewer { min-height: 0; }
+  .viewer-head { display: block; }
+  .viewer .open-file { display: inline-block; margin-top: 0.5em; }
+  .asset-img { max-height: none; }
+}

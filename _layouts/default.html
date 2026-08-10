@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if page.asset_viewer %}<link rel="stylesheet" href="{{ '/assets/css/asset-viewer.css' | relative_url }}">{% endif %}
   {% seo %}
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-H604DMLEHY"></script>
@@ -40,5 +41,6 @@
 
   <script src="{{ '/assets/js/abstracts.js' | relative_url }}"></script>
   <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  {% if page.asset_viewer %}<script src="{{ '/assets/js/asset-viewer.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>

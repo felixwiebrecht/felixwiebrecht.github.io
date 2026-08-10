@@ -1,17 +1,54 @@
 ---
 layout: default
-title: "Figures & Tables — Impact of Democracy on Economic, Human, and Societal Development"
+title: "Figures, Tables & Markdown | Impact of Democracy on Economic, Human, and Societal Development"
 permalink: /publications/impact-of-democracy-development/figures/
+asset_viewer: true
 ---
 
-<p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research</a></p>
+<div class="asset-page">
+  <div class="asset-local-nav"><a href="{{ '/research/' | relative_url }}">&larr; Back to research page</a></div>
+  <h1>Figures, Tables &amp; Markdown</h1>
+  <p class="subtitle">Impact of Democracy on Economic, Human, and Societal Development</p>
+  <p class="citation">Staffan I. Lindberg, Martin Lundstedt, Felix Wiebrecht, Vanessa Boese-Schlosser, Kelly Morrison, Natalia Natsika, and Yuko Sato. 2026. Impact of Democracy on Economic, Human, and Societal Development. Humanities and Social Science Communications. DOI: 10.1057/s41599-026-07463-x.</p>
 
-<div class="page-header">
-  <h1>Figures &amp; Tables</h1>
-  <p>Impact of democracy on economic, human, and societal development &mdash; Lindberg, Lundstedt, Wiebrecht, Boese-Schlosser, Morrison, Natsika &amp; Sato (2026), <em>Humanities and Social Science Communications</em>.</p>
+  <div class="asset-shell">
+    <aside class="selector" aria-label="Asset selector">
+      <div class="selector-label">Select an item</div>
+      <button class="asset-btn" type="button" data-asset="paper-markdown"><strong>Paper Markdown</strong><br><span>Paper text</span></button>
+      <button class="asset-btn" type="button" data-asset="figure-1"><strong>Figure 1</strong><br><span>Figure</span></button>
+    </aside>
+    <section class="viewer" aria-live="polite">
+      <div class="viewer-head">
+        <div>
+          <h2 id="asset-title"></h2>
+          <div class="kind" id="asset-kind"></div>
+        </div>
+        <a class="open-file" id="asset-open" href="#" target="_blank" hidden>Open image</a>
+      </div>
+      <div class="media-list" id="asset-media"></div>
+      <div class="caption" id="asset-caption"></div>
+      <div class="table-render" id="asset-table" hidden></div>
+    </section>
+  </div>
 </div>
 
-<div class="figure-item">
-  <img src="{{ '/publications/impact-of-democracy-development/figures/fig1.png' | relative_url }}" alt="Fig. 1 Distribution of normative t-statistics by outcome.">
-  <p class="figure-caption"><strong>Fig. 1.</strong> Distribution of normative t-statistics by outcome.</p>
-</div>
+<script type="application/json" id="asset-data">
+{
+  "paper": {
+    "title": "Impact of Democracy on Economic, Human, and Societal Development",
+    "citation": "Staffan I. Lindberg, Martin Lundstedt, Felix Wiebrecht, Vanessa Boese-Schlosser, Kelly Morrison, Natalia Natsika, and Yuko Sato. 2026. Impact of Democracy on Economic, Human, and Societal Development. Humanities and Social Science Communications. DOI: 10.1057/s41599-026-07463-x."
+  },
+  "markdownUrl": "{{ '/publications/impact-of-democracy-development/paper.md' | relative_url }}",
+  "items": [
+    {
+      "id": "figure-1",
+      "kind": "Figure",
+      "label": "Figure 1",
+      "caption": "Fig. 1. Distribution of normative t-statistics by outcome.",
+      "media": ["{{ '/publications/impact-of-democracy-development/figures/fig1.png' | relative_url }}"],
+      "rows": [],
+      "text": ""
+    }
+  ]
+}
+</script>
