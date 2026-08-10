@@ -191,6 +191,14 @@ h2.section-title {
 .paper-row.paper-row { cursor: pointer; }
 .paper-title-row { display: flex; align-items: baseline; gap: 0.5rem; }
 
+.paper-number {
+  flex: none;
+  color: #888;
+  font-size: 0.85rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
 .paper-toggle-icon {
   flex: none;
   display: inline-flex;

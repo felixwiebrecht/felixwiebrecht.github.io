@@ -19,12 +19,15 @@ permalink: /research/
     </tr>
   </thead>
   <tbody>
+    {% assign published_count = site.data.publications.published | size %}
     {% for paper in site.data.publications.published %}
     {% assign has_detail = false %}
     {% if paper.abstract or paper.pdf or paper.markdown or paper.figures %}{% assign has_detail = true %}{% endif %}
+    {% assign paper_number = published_count | minus: forloop.index | plus: 1 %}
     <tr class="{% if has_detail %}paper-row{% endif %}" {% if has_detail %}data-toggle="pub-{{ forloop.index }}"{% endif %}>
       <td>
         <div class="paper-title-row">
+          <span class="paper-number">{{ paper_number }}.</span>
           {% if has_detail %}<span class="paper-toggle-icon">+</span>{% endif %}
           <div class="paper-title">
             {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
