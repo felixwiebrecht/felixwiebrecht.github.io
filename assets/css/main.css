@@ -264,6 +264,10 @@ h2.section-title {
 .status-review { background: #d1ecf1; color: #0c5460; }
 .status-progress { background: #f8d7da; color: #721c24; }
 
+/* Altmetric badge + extra links, side by side */
+.paper-actions { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; min-height: 1.6rem; }
+.altmetric-embed { flex: none; }
+
 /* Extra links (PDF, Markdown, Figures & Tables) */
 .paper-links { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 .paper-link {

@@ -48,11 +48,14 @@ permalink: /research/
     <tr class="paper-detail-row" id="pub-{{ forloop.index }}">
       <td colspan="5">
         <div class="paper-detail">
-          {% if paper.pdf or paper.markdown or paper.figures %}
-          <div class="paper-links">
-            {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
-            {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
-            {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+          {% if paper.doi or paper.pdf or paper.markdown or paper.figures %}
+          <div class="paper-actions">
+            {% if paper.doi %}<div class="altmetric-embed" data-badge-type="donut" data-doi="{{ paper.doi }}" data-hide-no-mentions="true"></div>{% endif %}
+            <div class="paper-links">
+              {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
+              {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
+              {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+            </div>
           </div>
           {% endif %}
           {% if paper.abstract %}
@@ -138,11 +141,14 @@ permalink: /research/
     <tr class="paper-detail-row" id="wp-{{ forloop.index }}">
       <td colspan="4">
         <div class="paper-detail">
-          {% if paper.pdf or paper.markdown or paper.figures %}
-          <div class="paper-links">
-            {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
-            {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
-            {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+          {% if paper.doi or paper.pdf or paper.markdown or paper.figures %}
+          <div class="paper-actions">
+            {% if paper.doi %}<div class="altmetric-embed" data-badge-type="donut" data-doi="{{ paper.doi }}" data-hide-no-mentions="true"></div>{% endif %}
+            <div class="paper-links">
+              {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
+              {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
+              {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+            </div>
           </div>
           {% endif %}
           {% if paper.abstract %}
