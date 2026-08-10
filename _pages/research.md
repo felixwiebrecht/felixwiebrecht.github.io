@@ -20,21 +20,16 @@ permalink: /research/
   </thead>
   <tbody>
     {% for paper in site.data.publications.published %}
-    <tr>
+    {% assign has_detail = false %}
+    {% if paper.abstract or paper.pdf or paper.markdown or paper.figures %}{% assign has_detail = true %}{% endif %}
+    <tr class="{% if has_detail %}paper-row{% endif %}" {% if has_detail %}data-toggle="pub-{{ forloop.index }}"{% endif %}>
       <td>
-        <div class="paper-title">
-          {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+        <div class="paper-title-row">
+          {% if has_detail %}<span class="paper-toggle-icon">+</span>{% endif %}
+          <div class="paper-title">
+            {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+          </div>
         </div>
-        {% if paper.abstract %}
-        <button class="abstract-toggle">abstract</button>
-        <div class="abstract-text">{{ paper.abstract }}</div>
-        {% endif %}
-        {% if paper.pdf or paper.markdown %}
-        <div class="paper-links">
-          {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">PDF</a>{% endif %}
-          {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">Markdown</a>{% endif %}
-        </div>
-        {% endif %}
       </td>
       <td>
         {{ paper.journal }}
@@ -49,6 +44,25 @@ permalink: /research/
         </div>
       </td>
     </tr>
+    {% if has_detail %}
+    <tr class="paper-detail-row" id="pub-{{ forloop.index }}">
+      <td colspan="5">
+        <div class="paper-detail">
+          {% if paper.pdf or paper.markdown or paper.figures %}
+          <div class="paper-links">
+            {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
+            {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
+            {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+          </div>
+          {% endif %}
+          {% if paper.abstract %}
+          <div class="paper-abstract-label">Abstract</div>
+          <p class="paper-abstract-text">{{ paper.abstract }}</p>
+          {% endif %}
+        </div>
+      </td>
+    </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>
@@ -91,15 +105,16 @@ permalink: /research/
   </thead>
   <tbody>
     {% for paper in site.data.publications.working_papers %}
-    <tr>
+    {% assign has_detail = false %}
+    {% if paper.abstract or paper.pdf or paper.markdown or paper.figures %}{% assign has_detail = true %}{% endif %}
+    <tr class="{% if has_detail %}paper-row{% endif %}" {% if has_detail %}data-toggle="wp-{{ forloop.index }}"{% endif %}>
       <td>
-        <div class="paper-title">
-          {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+        <div class="paper-title-row">
+          {% if has_detail %}<span class="paper-toggle-icon">+</span>{% endif %}
+          <div class="paper-title">
+            {% if paper.url %}<a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+          </div>
         </div>
-        {% if paper.abstract %}
-        <button class="abstract-toggle">abstract</button>
-        <div class="abstract-text">{{ paper.abstract }}</div>
-        {% endif %}
       </td>
       <td>{{ paper.coauthors }}</td>
       <td>
@@ -119,6 +134,25 @@ permalink: /research/
         </div>
       </td>
     </tr>
+    {% if has_detail %}
+    <tr class="paper-detail-row" id="wp-{{ forloop.index }}">
+      <td colspan="4">
+        <div class="paper-detail">
+          {% if paper.pdf or paper.markdown or paper.figures %}
+          <div class="paper-links">
+            {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
+            {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
+            {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+          </div>
+          {% endif %}
+          {% if paper.abstract %}
+          <div class="paper-abstract-label">Abstract</div>
+          <p class="paper-abstract-text">{{ paper.abstract }}</p>
+          {% endif %}
+        </div>
+      </td>
+    </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>
