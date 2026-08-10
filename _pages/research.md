@@ -29,9 +29,10 @@ permalink: /research/
         <button class="abstract-toggle">abstract</button>
         <div class="abstract-text">{{ paper.abstract }}</div>
         {% endif %}
-        {% if paper.pdf %}
+        {% if paper.pdf or paper.markdown %}
         <div class="paper-links">
-          <a href="{{ paper.pdf }}" class="paper-link" target="_blank">PDF</a>
+          {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">PDF</a>{% endif %}
+          {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">Markdown</a>{% endif %}
         </div>
         {% endif %}
       </td>
