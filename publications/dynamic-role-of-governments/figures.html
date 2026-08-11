@@ -15,11 +15,11 @@ asset_viewer: true
     <aside class="selector" aria-label="Asset selector">
       <div class="selector-label">Select an item</div>
       <button class="asset-btn" type="button" data-asset="paper-markdown"><strong>Paper Markdown</strong><br><span>Paper text</span></button>
-      <button class="asset-btn" type="button" data-asset="table-1"><strong>Table 1</strong><br><span>Table</span></button>
       <button class="asset-btn" type="button" data-asset="figure-1"><strong>Figure 1</strong><br><span>Figure</span></button>
+      <button class="asset-btn" type="button" data-asset="figure-2"><strong>Figure 2</strong><br><span>Figure</span></button>
+      <button class="asset-btn" type="button" data-asset="table-1"><strong>Table 1</strong><br><span>Table</span></button>
       <button class="asset-btn" type="button" data-asset="table-2"><strong>Table 2</strong><br><span>Table</span></button>
       <button class="asset-btn" type="button" data-asset="table-3"><strong>Table 3</strong><br><span>Table</span></button>
-      <button class="asset-btn" type="button" data-asset="figure-2"><strong>Figure 2</strong><br><span>Figure</span></button>
     </aside>
     <section class="viewer" aria-live="polite">
       <div class="viewer-head">
@@ -45,20 +45,29 @@ asset_viewer: true
   "markdownUrl": "{{ '/publications/dynamic-role-of-governments/paper.md' | relative_url }}",
   "items": [
     {
-      "id": "table-1",
-      "kind": "Table",
-      "label": "Table 1",
-      "caption": "Table 1: Copyright of innovation and actors' expectations",
-      "media": ["{{ '/publications/dynamic-role-of-governments/figures/table1.png' | relative_url }}"],
-      "rows": [],
-      "text": ""
-    },
-    {
       "id": "figure-1",
       "kind": "Figure",
       "label": "Figure 1",
       "caption": "Figure 1: The geographical location of the two cases",
       "media": ["{{ '/publications/dynamic-role-of-governments/figures/fig1.png' | relative_url }}"],
+      "rows": [],
+      "text": ""
+    },
+    {
+      "id": "figure-2",
+      "kind": "Figure",
+      "label": "Figure 2",
+      "caption": "Figure 2: The processes of the two cases",
+      "media": ["{{ '/publications/dynamic-role-of-governments/figures/fig2.png' | relative_url }}"],
+      "rows": [],
+      "text": ""
+    },
+    {
+      "id": "table-1",
+      "kind": "Table",
+      "label": "Table 1",
+      "caption": "Table 1: Copyright of innovation and actors' expectations",
+      "media": ["{{ '/publications/dynamic-role-of-governments/figures/table1.png' | relative_url }}"],
       "rows": [],
       "text": ""
     },
@@ -77,15 +86,6 @@ asset_viewer: true
       "label": "Table 3",
       "caption": "Table 3: The interviewees and their roles",
       "media": ["{{ '/publications/dynamic-role-of-governments/figures/table3.png' | relative_url }}"],
-      "rows": [],
-      "text": ""
-    },
-    {
-      "id": "figure-2",
-      "kind": "Figure",
-      "label": "Figure 2",
-      "caption": "Figure 2: The processes of the two cases",
-      "media": ["{{ '/publications/dynamic-role-of-governments/figures/fig2.png' | relative_url }}"],
       "rows": [],
       "text": ""
     }
