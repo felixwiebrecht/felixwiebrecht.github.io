@@ -22,7 +22,7 @@ permalink: /research/
     {% assign published_count = site.data.publications.published | size %}
     {% for paper in site.data.publications.published %}
     {% assign has_detail = false %}
-    {% if paper.abstract or paper.pdf or paper.markdown or paper.figures %}{% assign has_detail = true %}{% endif %}
+    {% if paper.abstract or paper.pdf or paper.markdown or paper.figures or paper.appendix or paper.appendix2 or paper.codebook or paper.replication %}{% assign has_detail = true %}{% endif %}
     {% assign paper_number = published_count | minus: forloop.index | plus: 1 %}
     <tr class="{% if has_detail %}paper-row{% endif %}" {% if has_detail %}data-toggle="pub-{{ forloop.index }}"{% endif %}>
       <td>
@@ -51,13 +51,17 @@ permalink: /research/
     <tr class="paper-detail-row" id="pub-{{ forloop.index }}">
       <td colspan="5">
         <div class="paper-detail">
-          {% if paper.doi or paper.pdf or paper.markdown or paper.figures %}
+          {% if paper.doi or paper.pdf or paper.markdown or paper.figures or paper.appendix or paper.appendix2 or paper.codebook or paper.replication %}
           <div class="paper-actions">
             {% if paper.doi %}<div class="altmetric-embed" data-badge-type="donut" data-doi="{{ paper.doi }}" data-hide-no-mentions="true"></div>{% endif %}
             <div class="paper-links">
               {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
               {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
               {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+              {% if paper.appendix %}<a href="{{ paper.appendix }}" class="paper-link" target="_blank">&#128206; Appendix</a>{% endif %}
+              {% if paper.appendix2 %}<a href="{{ paper.appendix2 }}" class="paper-link" target="_blank">&#128206; Appendix 2</a>{% endif %}
+              {% if paper.codebook %}<a href="{{ paper.codebook }}" class="paper-link" target="_blank">&#128211; Codebook</a>{% endif %}
+              {% if paper.replication %}<a href="{{ paper.replication }}" class="paper-link" target="_blank">&#128190; Replication Data</a>{% endif %}
             </div>
           </div>
           {% endif %}
@@ -112,7 +116,7 @@ permalink: /research/
   <tbody>
     {% for paper in site.data.publications.working_papers %}
     {% assign has_detail = false %}
-    {% if paper.abstract or paper.pdf or paper.markdown or paper.figures %}{% assign has_detail = true %}{% endif %}
+    {% if paper.abstract or paper.pdf or paper.markdown or paper.figures or paper.appendix or paper.appendix2 or paper.codebook or paper.replication %}{% assign has_detail = true %}{% endif %}
     <tr class="{% if has_detail %}paper-row{% endif %}" {% if has_detail %}data-toggle="wp-{{ forloop.index }}"{% endif %}>
       <td>
         <div class="paper-title-row">
@@ -144,13 +148,17 @@ permalink: /research/
     <tr class="paper-detail-row" id="wp-{{ forloop.index }}">
       <td colspan="4">
         <div class="paper-detail">
-          {% if paper.doi or paper.pdf or paper.markdown or paper.figures %}
+          {% if paper.doi or paper.pdf or paper.markdown or paper.figures or paper.appendix or paper.appendix2 or paper.codebook or paper.replication %}
           <div class="paper-actions">
             {% if paper.doi %}<div class="altmetric-embed" data-badge-type="donut" data-doi="{{ paper.doi }}" data-hide-no-mentions="true"></div>{% endif %}
             <div class="paper-links">
               {% if paper.pdf %}<a href="{{ paper.pdf }}" class="paper-link" target="_blank">&#128196; PDF</a>{% endif %}
               {% if paper.markdown %}<a href="{{ paper.markdown }}" class="paper-link" target="_blank">&#128221; Markdown</a>{% endif %}
               {% if paper.figures %}<a href="{{ paper.figures }}" class="paper-link" target="_blank">&#128202; Figures &amp; Tables</a>{% endif %}
+              {% if paper.appendix %}<a href="{{ paper.appendix }}" class="paper-link" target="_blank">&#128206; Appendix</a>{% endif %}
+              {% if paper.appendix2 %}<a href="{{ paper.appendix2 }}" class="paper-link" target="_blank">&#128206; Appendix 2</a>{% endif %}
+              {% if paper.codebook %}<a href="{{ paper.codebook }}" class="paper-link" target="_blank">&#128211; Codebook</a>{% endif %}
+              {% if paper.replication %}<a href="{{ paper.replication }}" class="paper-link" target="_blank">&#128190; Replication Data</a>{% endif %}
             </div>
           </div>
           {% endif %}
