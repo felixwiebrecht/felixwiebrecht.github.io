@@ -37,12 +37,6 @@ delegates are similarly important (Art 2012). In fact, members of assemblies in
 work is properly cited.
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-436 Felix Wiebrecht
-
-
 authoritarian regimes can show remarkable levels of commitment and passion for
 participating in their activities as for instance delegates of China’s National
 People’s Congress and People’s Political Consultative Conference do (Truex 2016;
@@ -83,12 +77,6 @@ actions. In contrast, cadres working on lower levels are the most active delegat
 and channel local knowledge and demands into the official processes. Given their
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 437
-
-
 lack of other channels to transmit demands vertically, they have to utilize an authoritarian assembly to appeal to the provincial government and request resources.
 Secondly, I find that some coopted groups such as academics and professionals are
 also among the most active delegates in providing recommendations to the government. Since they tend to be sidelined in other decision-making processes, for both
@@ -125,12 +113,6 @@ In recent years, research has singled out nominally democratic institutions as c
 have highlighted that authoritarian institutions can help to coopt opposition forces
 and incorporate them into policy-making processes (Gandhi 2008; Gandhi and
 Przeworski 2007; Reuter and Robertson 2015), facilitate power-sharing among the
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-438 Felix Wiebrecht
 
 
 authoritarian elite (Svolik 2012; Gehlbach and Keefer 2011), and collect information
@@ -174,12 +156,6 @@ activity in an authoritarian assembly. While even in authoritarian regimes actor
 have many competing and divergent preferences (Williamson and Magaloni 2020;
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 439
-
-
 Kim and Sudduth 2021), their ability to ultimately influence policymaking varies. Just
 as in democracies (Cox and McCubbins 2005; Gailmard and Jenkins 2007), some
 actors in authoritarian regimes are more powerful than others regarding policymaking and agenda-setting and can bypass legislative bargaining more easily (Wu 2020;
@@ -221,12 +197,6 @@ body. While it did not survive the Cultural Revolution, the political elite of t
 and opening-up period re-discovered the advantages of the system and revitalized the
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-440 Felix Wiebrecht
-
-
 Figure 1. Membership Composition of PPCCs in Provinces 1 and 2. Compiled by author
 
 
@@ -251,12 +221,6 @@ The mechanisms of selecting PPCC delegates are non-transparent but recommendatio
 loyalty is a prerequisite to be considered as delegate, candidates’ social standing
 also appears crucial. For private entrepreneurs, for instance, business success and
 prior philanthropic engagement are key (Sagild 2019). Thus, delegates are generally
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 441
 
 
 elites in their respective fields that the regime considers valuable and important to
@@ -296,12 +260,6 @@ the delegates’ occupational backgrounds as these are most important in determi
 one’s status within the authoritarian regime.
 The membership composition of the PPCCs reveals that most delegates are indeed
 government officials. The view on authoritarian institutions as arenas for bureaucratic
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-442 Felix Wiebrecht
 
 
 competition (Lü, Liu, and Li 2020; Noble 2020) suggests that government agencies are
@@ -349,12 +307,6 @@ A second large group of delegates in the PPCCs is that of academics and professi
 of political regimes, characterized by their high degree of social acuity (Bakir and
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 443
-
-
 Jarvis 2017). On the other hand, in authoritarian regimes, they often lack institutionalized channels through which they can communicate their research and participate
 in the policymaking processes (Kaczmarska 2019). This has also been recognized as
 an issue in China with many academics missing access to the governments’ administrative channels (Zhu 2016). With the PPCCs as one of few institutionalized mechanisms in which they can offer recommendations, academics are likely to be more
@@ -396,12 +348,6 @@ through policy concessions, cooptation is primarily advanced through material
 rewards. In many cases, actors have been coopted primarily through financial remunerations or closer access to resources (Lust-Okar 2006; Blaydes 2011). In the Chinese
 context, these advantages have also been shown impressively in particular for private
 entrepreneurs (Sun, Zhu, and Wu 2014; Truex 2014).
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-444 Felix Wiebrecht
 
 
 Yet, this material approach of cooptation may instead lead to the opposite outcome of stifling incentives for active participation in authoritarian institutions.
@@ -449,12 +395,6 @@ As outlined above, the delegates’ occupations are the main variables of intere
 since they carry theoretical significance. Additional personal details such as delegates’
 gender, education level, ethnicity, birthplace, party membership, and whether they are
 part of the institutional leadership [7] function as control variables.
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 445
 
 
 Prior research especially from democratic parliaments showed that some of these
@@ -505,12 +445,6 @@ confirm the theoretical expectations. First, there are significant differences b
 government officials on different administrative levels. Provincial government officials are significantly less likely to submit proposals to the PPCCs in all models. In
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-446 Felix Wiebrecht
-
-
 Figure 2. Distribution of Proposals by Occupational Groups. Compiled by author
 
 
@@ -535,19 +469,7 @@ but instead stifle their activity in some models even significantly. As expected
 Chinese delegates. Finally, the local connection of delegates to their provinces only
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 447
-
-
-
 Table 1. Baseline Results
-
-
-
-
-
 
 
 Note: † p < 0.1, *p < 0.05, **p < 0.01, ***p < 0.001, Standard errors in parentheses.
@@ -563,12 +485,6 @@ a maximum of 30. Thus, I have excluded outliers with more than 20, 15, and 10 pr
 Tables 6–8 in Appendix). As a further robustness test, I have also removed delegates
 that are not based in the two respective provinces. These are mainly from Hong Kong
 and Macau and the results of this analysis can be found in Table 9 in the Appendix.
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-448 Felix Wiebrecht
 
 
 In order to assess the representativeness of the results from two Chinese provinces,
@@ -614,12 +530,6 @@ access. The importance of informal institutions and patronage has previously bee
 highlighted in the Chinese context especially within the government and party apparatus (Jiang 2018).
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 449
-
-
 Table 2. Proportion of Proposals with Local Issues, by occupational backgrounds
 
 
@@ -657,12 +567,6 @@ institutional and non-institutional channels attempting to influence policymakin
 even in closed authoritarian regimes. As the first substantial analysis of delegate activity in two PPCCs in China, this article underscores this idea by highlighting which
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-450 Felix Wiebrecht
-
-
 Figure 3. Analysis of local government officials
 
 
@@ -687,12 +591,6 @@ important differences even between elites of the Communist Party of Vietnam,
 whereas Manion (2014) and Desposato (2001) illustrate the importance of parochialism for local rather than central-level elites in China and Brazil. In the case of
 Taiwan’s Legislative Yuan, there were also considerable differences across the ranks
 of the ruling Kuomintang (Tien and Cheng 1997).
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 451
 
 
 For the comparative study of authoritarian regimes and institutions, this study has
@@ -740,12 +638,6 @@ for helpful comments and suggestions.
 
 Funding Declaration. This research received no specific grant from any funding agency, commercial or
 not-for profit sectors.
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-452 Felix Wiebrecht
 
 
 Conflicts of interests. The author declares none.
@@ -807,12 +699,6 @@ Political Consultative Conference.” Journal of Contemporary China 24 (94): 613
 —
 Cox, Gary W., and Mathew D. McCubbins. 2005. Setting the Agenda Responsible Party Government in the
 U.S. House of Representatives. Cambridge: Cambridge University Press.
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 453
 
 
 Desposato, Scott. 2001. “Legislative Politics in Authoritarian Brazil.” Legislative Studies Quarterly 26 (2):
@@ -879,12 +765,6 @@ Liu, Lawrence J., and Rachel E. Stern. 2020. “State-Adjacent Professionals: Ho
 in Political Life.” The China Quarterly 247: 793–813.
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-454 Felix Wiebrecht
-
-
 Lü, Xiaobo, and Pierre F. Landry. 2014. “Show Me the Money: Interjurisdiction Political Competition and
 Fiscal Extraction in China.” American Political Science Review 108 (3): 706–722.
 Lü, Xiaobo, Mingxing Liu, and Feiyue Li. 2020. “Policy Coalition Building in an Authoritarian
@@ -945,12 +825,6 @@ Szakonyi, David. 2017. “New Rules, New Members, Same Results? A Look at the Ne
 [ki_170515_cable_22.pdf.](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ki_170515_cable_22.pdf)
 
 
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
-
-
-Journal of East Asian Studies 455
-
-
 Tien, Hung-mao, and Tun-jen Cheng. 1997. “Crafting Democratic Institutions in Taiwan.” The China
 Journal 37: 1–27.
 Truex, Rory. 2014. “The Returns to Office in a ‘Rubber Stamp’ Parliament.” American Political Science
@@ -982,12 +856,5 @@ Felix Wiebrecht is a Postdoctoral Research Fellow at the V-Dem Institute at the 
 He received his PhD from The Chinese University of Hong Kong. His research focuses on authoritarian
 legislatures and elite politics, both globally and sometimes specifically in China. His work has appeared
 in Democratization and Policy & Politics.
-
-
-Cite this article: Wiebrecht F (2022). Explaining Activity in Authoritarian Assemblies: Evidence from
-[China. Journal of East Asian Studies 22, 435–455. https://doi.org/10.1017/jea.2022.19](https://doi.org/10.1017/jea.2022.19)
-
-
-[https://doi.org/10.1017/jea.2022.19 Published online by Cambridge University Press](https://doi.org/10.1017/jea.2022.19)
 
 

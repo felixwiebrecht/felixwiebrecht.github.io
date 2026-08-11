@@ -1,51 +1,3 @@
-## **Democratization**
-
-**[ISSN: 1351-0347 (Print) 1743-890X (Online) Journal homepage: www.tandfonline.com/journals/fdem20](https://www.tandfonline.com/journals/fdem20?src=pdf)**
-
-# **State of the world 2022: defiance in the face of** **autocratization**
-
-
-**Felix Wiebrecht, Yuko Sato, Marina Nord, Martin Lundstedt, Fabio Angiolillo**
-**& Staffan I. Lindberg**
-
-
-**To cite this article:** Felix Wiebrecht, Yuko Sato, Marina Nord, Martin Lundstedt, Fabio Angiolillo
-& Staffan I. Lindberg (2023) State of the world 2022: defiance in the face of autocratization,
-[Democratization, 30:5, 769-793, DOI: 10.1080/13510347.2023.2199452](https://www.tandfonline.com/action/showCitFormats?doi=10.1080/13510347.2023.2199452)
-
-
-**To link to this article:** [https://doi.org/10.1080/13510347.2023.2199452](https://doi.org/10.1080/13510347.2023.2199452)
-
-
-© 2023 The Author(s). Published by Informa
-UK Limited, trading as Taylor & Francis
-Group
-
-
-Published online: 26 Apr 2023.
-
-
-[Submit your article to this journal](https://www.tandfonline.com/action/authorSubmission?journalCode=fdem20&show=instructions&src=pdf)
-
-
-Article views: 17230
-
-
-[View related articles](https://www.tandfonline.com/doi/mlt/10.1080/13510347.2023.2199452?src=pdf)
-
-
-[View Crossmark data](http://crossmark.crossref.org/dialog/?doi=10.1080/13510347.2023.2199452&domain=pdf&date_stamp=26%20Apr%202023)
-
-
-[Citing articles: 57 View citing articles](https://www.tandfonline.com/doi/citedby/10.1080/13510347.2023.2199452?src=pdf)
-
-
-Full Terms & Conditions of access and use can be found at
-[https://www.tandfonline.com/action/journalInformation?journalCode=fdem20](https://www.tandfonline.com/action/journalInformation?journalCode=fdem20)
-
-
-DEMOCRATIZATION
-
 2023, VOL. 30, NO. 5, 769–793
 https://doi.org/10.1080/13510347.2023.2199452
 
@@ -91,9 +43,6 @@ This is an Open Access article distributed under the terms of the Creative Commo
 tion in any medium, provided the original work is properly cited, and is not altered, transformed, or built upon in any way. The
 terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or
 with their consent.
-
-
-770 F. WIEBRECHT ET AL.
 
 
 This article presents four primary findings. First, the global population-weighted
@@ -177,7 +126,6 @@ to levels last seen in 1986, as shown by the black line in the right panel. The 
 0.0
 
 
-
 0.9
 
 
@@ -208,10 +156,6 @@ to levels last seen in 1986, as shown by the black line in the right panel. The 
 0.0
 
 
-
-DEMOCRATIZATION 771
-
-
 World
 
 
@@ -233,13 +177,10 @@ The Middle East and North Africa
 Western Europe and North America
 
 
-
 1972 1982 1992 2002 2012 2022
 
 
-
 1972 1982 1992 2002 2012 2022
-
 
 
 Figure 1. Liberal Democracy Index by country averages and population-weighted averages, 1972–2022.
@@ -282,11 +223,7 @@ and liberal democracies. [8] The left panel depicts the number of countries, whi
 panel presents the share of the world’s population by regime type, over the last five decades.
 
 
-772 F. WIEBRECHT ET AL.
-
-
 100
-
 
 
 |Col1|Col2|Col3|Col4|Col5|
@@ -315,7 +252,6 @@ panel presents the share of the world’s population by regime type, over the la
 
 
 1972 1982 1992 2002 2012 2022
-
 
 
 90
@@ -348,7 +284,6 @@ panel presents the share of the world’s population by regime type, over the la
 0
 
 
-
 |Col1|Col2|
 |---|---|
 |||
@@ -374,13 +309,6 @@ panel presents the share of the world’s population by regime type, over the la
 
 
 1972 1982 1992 2002 2012 2022
-
-
-
-
-
-
-
 
 
 55%
@@ -419,11 +347,6 @@ panel presents the share of the world’s population by regime type, over the la
 0%
 
 
-
-
-
-
-
 Closed Autocracy
 
 
@@ -434,7 +357,6 @@ Electoral Democracy
 
 
 Liberal Democracy
-
 
 
 Figure 2. Regime types by number of countries and share of population, 1972–2022.
@@ -479,61 +401,22 @@ autocratic, with 89%, 79%, and 73% of these regions’ populations living in aut
 respectively. In Latin America and the Caribbean there is a predominance of electoral
 
 
-DEMOCRATIZATION 773
-
-
 Eastern Europe, Central Asia
-
 
 
 Western Europe, North America
 
 
-
 Latin American, Caribbean
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Sub−Saharan Africa
 
 
-
 Asia, Pacific
 
 
-
 Middle East, North Africa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Closed Autocracies Electoral Autocracies Electoral Democracies Liberal Democracies
@@ -551,7 +434,6 @@ Drastic changes in the last decade
 
 Figure 4 shows that most aspects of democracy have been negatively affected since
 2012 compared to 2022. It displays the component-indices of the liberal, electoral,
-
 
 
 36
@@ -579,9 +461,6 @@ Figure 4 shows that most aspects of democracy have been negatively affected sinc
 
 
 4
-
-
-
 
 
 36
@@ -614,22 +493,7 @@ Figure 4 shows that most aspects of democracy have been negatively affected sinc
 0
 
 
-
-
-
 2022
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 |Col1|Col2|Col3|Col4|Col5|2012|Col7|Col8|Col9|Col10|Col11|
@@ -661,15 +525,12 @@ Figure 4 shows that most aspects of democracy have been negatively affected sinc
 |~~**S**~~|~~ffrage~~||||||||||
 
 
-
 0 4 8 12 16 20 24 28 32 36
 Number of Countries Declining
 
 
-
 0 4 8 12 16 20 24 28 32 36
 Number of Countries Declining
-
 
 
 Deliberative Component Electoral Democracy Liberal Component
@@ -680,9 +541,6 @@ Figure 4. Democratic aspects improving and declining, 2012 and 2022.
 
 Notes: For indices measuring components of democracy, Figure 4 shows the number of countries improving and declining significantly (i.e. the confidence intervals do not overlap) and substantially (i.e. the difference is greater than 0.05). The left panel
 compares changes between 2012 and 2002, and the right panel compares changes between 2022 and 2012.
-
-
-774 F. WIEBRECHT ET AL.
 
 
 and deliberative democracy indices. [10] The left panel demonstrates that more countries
@@ -777,9 +635,6 @@ Notes: Figure 5 plots the 20 indicators that decline significantly (i.e. the con
 the 2022 value is at least 0.5 points lower than the 2012 value) in the most countries between 2012 and 2022.
 
 
-DEMOCRATIZATION 775
-
-
 under increasing pressure: the right to exist for civil society organizations (CSOs)
 declined in 40 countries, while repression of CSOs increased in 37 countries. More
 than 30 countries experienced substantial deterioration in the range of consultation
@@ -817,9 +672,6 @@ of global GDP/ppp. Türkiye (another country that turned from electoral democrac
 in 1992 to 2.1% in 2022.
 
 
-776 F. WIEBRECHT ET AL.
-
-
 100%
 
 
@@ -847,7 +699,6 @@ in 1992 to 2.1% in 2022.
 0%
 
 
-
 39%
 
 
@@ -858,7 +709,6 @@ in 1992 to 2.1% in 2022.
 
 
 25%
-
 
 
 1992 1997 2002 2007 2012 2017 2022
@@ -915,7 +765,6 @@ powerful, influential states among autocratizers over the past ten years.
 0
 
 
-
 |Col1|71|Col3|Col4|
 |---|---|---|---|
 |||||
@@ -937,7 +786,6 @@ powerful, influential states among autocratizers over the past ten years.
 1972 1982 1992 2002 2012 2022
 
 
-
 |Col1|Col2|Col3|
 |---|---|---|
 |||43%|
@@ -955,15 +803,6 @@ powerful, influential states among autocratizers over the past ten years.
 1972 1982 1992 2002 2012 2022
 
 
-
-DEMOCRATIZATION 777
-
-
-
-
-
-
-
 40%
 
 
@@ -977,9 +816,6 @@ DEMOCRATIZATION 777
 
 
 0%
-
-
-
 
 
 Autocratizing Countries Democratizing Countries
@@ -1013,9 +849,6 @@ are Brazil and Poland, both of which halted the autocratization trend before dem
 collapsed. The 2022 presidential election in Brazil led to the democratic removal of Jair
 Bolsonaro from office. In Poland, internal forces organized against autocratization,
 contemporaneous to the European Union pushing back on executive actions against
-
-
-778 F. WIEBRECHT ET AL.
 
 
 10 years
@@ -1073,9 +906,7 @@ contemporaneous to the European Union pushing back on executive actions against
 ||||||||
 
 
-
 2012 2017 2022
-
 
 
 3 years
@@ -1103,11 +934,7 @@ contemporaneous to the European Union pushing back on executive actions against
 |||||||||||
 
 
-
 2019 2020 2021 2022
-
-
-
 
 
 0.9
@@ -1138,9 +965,6 @@ contemporaneous to the European Union pushing back on executive actions against
 
 
 0.0
-
-
-
 
 
 Closed Autocracy Electoral Autocracy Electoral Democracy Liberal Democracy
@@ -1177,9 +1001,6 @@ attacks by autocrats. These measures declined in over 25 autocratizing countries
                                                 the last decade. For example, government censorship of the media worsened signifi
 cantly during this period in Afghanistan, El Salvador, Hong Kong, Mauritius, and
 Poland. Freedom of academic and cultural expression was severely weakened in Indonesia, Russia, and Uruguay, among many others. There were also significant
-
-
-DEMOCRATIZATION 779
 
 
 Government censorship effort −−− Media
@@ -1278,9 +1099,6 @@ and continues its upward trajectory. Armenia, The Gambia, Honduras, Nepal, and S
 Lanka progressed from the status of electoral autocracies to electoral democracies. Fiji
 
 
-780 F. WIEBRECHT ET AL.
-
-
 10 years
 
 
@@ -1314,15 +1132,7 @@ Lanka progressed from the status of electoral autocracies to electoral democraci
 0.0
 
 
-
 3 years
-
-
-
-
-
-
-
 
 
 0.9
@@ -1353,8 +1163,6 @@ Lanka progressed from the status of electoral autocracies to electoral democraci
 
 
 0.0
-
-
 
 
 |Col1|Col2|Col3|Col4|Col5|Col6|Col7|
@@ -1403,13 +1211,10 @@ Lanka progressed from the status of electoral autocracies to electoral democraci
 |||||||||||
 
 
-
 2012 2017 2022
 
 
-
 2019 2020 2021 2022
-
 
 
 Closed Autocracy Electoral Autocracy Electoral Democracy Liberal Democracy
@@ -1446,9 +1251,6 @@ Moldova, North Macedonia, Slovenia, South Korea, and Zambia. [15] These countrie
                                                 were democracies at some point in the last twenty years, registered a period of signifi
 cant and substantial autocratization that was halted and was followed by a period of
 significant and substantial democratization at some point in the last ten years
-
-
-DEMOCRATIZATION 781
 
 
 0.8
@@ -1536,7 +1338,6 @@ DEMOCRATIZATION 781
 |||||||||||||||||||||||||||||||||||||||||||||||||
 
 
-
 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022
 
 
@@ -1572,9 +1373,6 @@ of statehood, and differ substantially in their initial levels of democracy. The
 can potentially highlight broader lessons about how to halt and reverse autocratization.
 In many of the U-turn countries, anti-pluralist leaders and parties drove autocratization. [19] Until 2019, during the tenure of President Evo Morales, Bolivia was on a slow
 path of autocratization. In Ecuador, institutions were severely undermined under
-
-
-782 F. WIEBRECHT ET AL.
 
 
 President Rafael Correa’s leadership (2007–2017) but the most recent 2021 presidential
@@ -1624,9 +1422,6 @@ subsume it under political interests. [28]
 
 Executive constraints also played a critical role in some countries with lower levels
 of democracy. In North Macedonia, the constitutional court in 2016 suspended
-
-
-DEMOCRATIZATION 783
 
 
 1.0
@@ -1724,7 +1519,6 @@ DEMOCRATIZATION 783
 ||||||||||||||||||||||||||||||||||||||||||||
 
 
-
 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022
 
 
@@ -1757,9 +1551,6 @@ failed. With the court ruling and following the elections, Moldova continued its
 Finally, in three countries executive constraints played a minor role perhaps since
 institutions and constraints had already been severely eroded in the process of autocratization. [32] In the Maldives, President Yameen faced a political crisis when the supreme
 court in 2018 overruled terrorism convictions against members of parliament and previous President Mohammed Nasheen, and reinstated 12 members of the parliament that
-
-
-784 F. WIEBRECHT ET AL.
 
 
 would enable parliament to impeach the president. In response, Yameen called for a state
@@ -1839,7 +1630,6 @@ to critical turnovers of the heads of government and/or heads of state. In most 
 ||||||||||||||||||||||||||||||||||||||||||||
 
 
-
 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022 2002 2007 2012 2017 2022
 
 
@@ -1851,9 +1641,6 @@ Figure 13. Mobilizations for democracy and autocracy in U-turn cases, 2002–202
 
 Notes: The y-axis exhibits the scores of the mobilization indicators. High scores indicate high levels of mobilization. The vertical
 line shows the timing of a critical turnover of the head of government and/or the head of state.
-
-
-DEMOCRATIZATION 785
 
 
 cases, mass mobilization was triggered by a critical event, such as corruption scandals
@@ -1900,9 +1687,6 @@ seem to have influenced the reversal in several of the cases include: removal of
 democracy support and protection.
 
 
-786 F. WIEBRECHT ET AL.
-
-
 Removing autocratizing leaders and parties from power is a critical aspect of reversing autocratization. Elections are a natural tool for replacing incumbents but one that
 may not always be possible once autocratization has taken hold. Elections seem to have
 played an important role in at least five of the eight cases: the Maldives, Moldova,
@@ -1943,9 +1727,6 @@ autocratization. This conclusion also aligns with previous findings. [55]
 
 The strategies adopted by opposition actors also seem important. The cases of
 Bolivia and Ecuador show that peaceful protests and challenging the incumbent government through parliamentary and legal means, can keep the door open for government turnover and democratic resurgence. This finding echoes those in recent research
-
-
-DEMOCRATIZATION 787
 
 
 pointing towards the dangers of irregular attempts to remove incumbents from
@@ -2014,9 +1795,6 @@ Zambia X X X X
 Note: “X” marks the presence of this element in the cases.
 
 
-788 F. WIEBRECHT ET AL.
-
-
 insights on potential causal factors that can guide future scholarship on understanding
 both U-turns and why autocratization in other cases resulted in entrenched autocratic
 rule. Our first attempt at understanding how these countries managed to reverse autocratization can serve as a useful starting point for assessing determinants of continued
@@ -2061,9 +1839,6 @@ Notes
 
 
 1. Coppedge et al., V-Dem Country-Year Dataset v13.
-
-
-DEMOCRATIZATION 789
 
 
 2. Lührmann and Lindberg, “The Third Wave of Autocratization.”
@@ -2115,9 +1890,6 @@ and substantial if the difference is greater than 0.05.
 17. Geddes, “How the Cases You Choose Affect the Answers You Get.”
 18. Boese et al., “How Democracies Prevail.”
 19. Medzihorsky and Lindberg,”Walking the Talk.”
-
-
-790 F. WIEBRECHT ET AL.
 
 
 [20. https://www.washingtonpost.com/politics/2022/04/26/slovenia-jansa-golob-backsliding-](https://www.washingtonpost.com/politics/2022/04/26/slovenia-jansa-golob-backsliding-democracy/)
@@ -2175,9 +1947,6 @@ regime in South Korea. Yang, “Defending ‘Liberal Democracy’?” Yet, our d
 the intensity of mobilization for autocracy did not rise substantially since the democratic
 comeback.
 63. E.g., Hellmeier and Bernhard, “Regime Transformation from Below.”
-
-
-DEMOCRATIZATION 791
 
 
 Acknowledgements
@@ -2246,9 +2015,6 @@ Fabio Angiolillo [http://orcid.org/0000-0003-1474-6500](http://orcid.org/0000-00
 Staffan I. Lindberg [http://orcid.org/0000-0003-0386-7390](http://orcid.org/0000-0003-0386-7390)
 
 
-792 F. WIEBRECHT ET AL.
-
-
 Bibliography
 
 
@@ -2306,9 +2072,6 @@ O’Donnell, G. A. “Horizontal Accountability in New Democracies.” Journal o
 (1998): 112–126.
 Papada, E., D. Altman, F. Angiolillo, L. Gastaldi, T. Köhler, M. Lundstedt, N. Natsika, M. Nord, Y.
 Sato, F. Wiebrecht, and S. I. Lindberg. Defiance in the Face of Autocratization. Democracy
-
-
-DEMOCRATIZATION 793
 
 
 Report 2023. Gothenburg, University of Gothenburg: Varieties of Democracy Institute (V-Dem
