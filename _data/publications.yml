@@ -21,6 +21,8 @@ published:
     url: "https://www.tandfonline.com/doi/full/10.1080/00220388.2025.2487005"
     doi: "10.1080/00220388.2025.2487005"
     pdf: "/publications/from-aid-to-empowerment/paper.pdf"
+    markdown: "/publications/from-aid-to-empowerment/paper.md"
+    figures: "/publications/from-aid-to-empowerment/figures/"
     appendix: "/publications/from-aid-to-empowerment/appendix.pdf"
     tags: [Democracy aid, civil society, democracy assistance, democratisation, authoritarian regimes]
     abstract: "A growing body of research indicates that democracy aid improves levels of democracy in recipient countries. However, the precise mechanisms behind this relationship are understudied. Contributing to the debates on democracy promotion, we argue that earmarked funding channelled through civil society strengthens civil society organisations' capacity building, curbs corruption, and reduces information gaps. Consequently, aid empowers civil society and ultimately enhances democracy in recipient countries. Using aid data from OECD-DAC and Varieties of Democracy, we analyse earmarked funding for civil society organisations across 128 recipient countries between 2005 and 2021 and find evidence for the positive but modest impact of this type of aid. The results demonstrate that democracy aid channelled through CSOs is positively associated with both, the strength of civil society and democracy levels in the recipient country, although the associations are relatively weak. We also find these associations to be slightly stronger in closed authoritarian regimes. This work contributes both theoretically and empirically to the debates about the effectiveness of democracy aid and the role of civil society in democratisation processes."
@@ -32,6 +34,8 @@ published:
     url: "https://www.cambridge.org/core/journals/british-journal-of-political-science/article/party-systems-democratic-positions-and-regime-changes-introducing-the-partysystem-democracy-index/1259751C10EBA5A423D0EFC2D41AAF9F"
     doi: "10.1017/S0007123424000887"
     pdf: "/publications/partysystems-democraticpositions-regimechanges/paper.pdf"
+    markdown: "/publications/partysystems-democraticpositions-regimechanges/paper.md"
+    figures: "/publications/partysystems-democraticpositions-regimechanges/figures/"
     appendix: "/publications/partysystems-democraticpositions-regimechanges/appendix.pdf"
     replication: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9BVJGU"
     tags: [Democracy, autocracy, political parties, party system, regime change]
@@ -44,6 +48,8 @@ published:
     url: "https://www.tandfonline.com/doi/full/10.1080/13510347.2024.2448742"
     doi: "10.1080/13510347.2024.2448742"
     pdf: "/publications/autocratization-is-reversed/paper.pdf"
+    markdown: "/publications/autocratization-is-reversed/paper.md"
+    figures: "/publications/autocratization-is-reversed/figures/"
     appendix: "/publications/autocratization-is-reversed/appendix.pdf"
     codebook: "/publications/autocratization-is-reversed/codebook.pdf"
     tags: [Democracy, autocratization, democratic resistance, turnaround, U-Turn]
@@ -56,6 +62,8 @@ published:
     url: "https://www.cambridge.org/core/journals/china-quarterly/article/expertise-and-responsiveness-in-peoples-political-consultative-conferences/D7CA851411DBFD62640ECF2B65631DB6"
     doi: "10.1017/S0305741024001486"
     pdf: "/publications/expertise-and-responsiveness/paper.pdf"
+    markdown: "/publications/expertise-and-responsiveness/paper.md"
+    figures: "/publications/expertise-and-responsiveness/figures/"
     appendix: "/publications/expertise-and-responsiveness/appendix.pdf"
     tags: [Responsiveness, authoritarianism, China, consultative conferences, consultation, policymaking]
     abstract: "What benefits do inclusive institutions offer authoritarian rulers? Previous research has studied delegate behaviour in authoritarian institutions but has been less well-equipped to assess government reactions to it. Analysing the case of one People's Political Consultative Conference in China, I argue that an overlooked key benefit of inclusive institutions is their provision of expertise. Drawing on novel data comprising more than 9,000 policy suggestions submitted by delegates, delegates' biographies and the corresponding government responses, I illustrate that the government generally values suggestions that signal expertise. While this is especially true for departments of a more technocratic nature, I also find that members of the institutional leadership are systematically favoured. These findings provide an important addition to our understanding of the role of authoritarian institutions in policymaking processes."
@@ -67,6 +75,8 @@ published:
     url: "https://journals.sagepub.com/doi/10.1177/10659129241252811"
     doi: "10.1177/10659129241252811"
     pdf: "/publications/disinformation-and-regime-survival/paper.pdf"
+    markdown: "/publications/disinformation-and-regime-survival/paper.md"
+    figures: "/publications/disinformation-and-regime-survival/figures/"
     appendix: "/publications/disinformation-and-regime-survival/appendix.pdf"
     tags: [Disinformation, propaganda, democratization, autocratization, regime survival]
     abstract: "Disinformation has transformed into a global issue and while it is seen as a growing concern to democracy today, autocrats have long used it as a part of their propaganda repertoire. Yet, no study has tested the effect of disinformation on regime stability and breakdown beyond country-specific studies. Drawing on novel measures from the Digital Society Project (DSP) estimating the levels of disinformation disseminated by governments across 148 countries between 2000-2022 and from the Episodes of Regime Transformation (ERT) dataset, we provide the first global comparative study of disinformation and survival of democratic and authoritarian regimes, respectively. The results show that in authoritarian regimes, disinformation helps rulers to stay in power as regimes with higher levels of disinformation are less likely to experience democratization episodes. In democracies, on the other hand, disinformation increases the probability of autocratization onsets. As such, this study is the first to provide comparative evidence on the negative effects of disinformation on democracy as well as on the prospects of democratization."
@@ -78,6 +88,8 @@ published:
     url: "https://www.tandfonline.com/doi/full/10.1080/14719037.2024.2349118"
     doi: "10.1080/14719037.2024.2349118"
     pdf: "/publications/environmental-antecedents/paper.pdf"
+    markdown: "/publications/environmental-antecedents/paper.md"
+    figures: "/publications/environmental-antecedents/figures/"
     tags: [Public sector innovation, innovation willingness, local officials, path dependence, innovation drivers]
     abstract: "Prompting officials' innovation willingness is a prerequisite for processes of public sector innovation. This article constructs a framework explaining officials' innovation willingness by linking environmental antecedents and path dependence. The empirical analysis, based on an original survey of 403 officials and interviews with 102 officials in China, shows that their innovation willingness is mostly driven by factors within the bureaucratic system, i.e. top-down and horizontal drivers but less so by bottom-up drivers. Moreover, officials with previous innovation experience tend to have more innovation willingness but are less driven by top-down factors. This study advances the theory of innovation willingness generation."
 
@@ -120,6 +132,8 @@ published:
     url: "https://bristoluniversitypressdigital.com/view/journals/pp/49/4/article-p633.xml"
     doi: "10.1332/030557321X16292224745415"
     pdf: "/publications/dynamic-role-of-governments/paper.pdf"
+    markdown: "/publications/dynamic-role-of-governments/paper.md"
+    figures: "/publications/dynamic-role-of-governments/figures/"
     tags: [Policy Innovation, higher-level government, vertical government interaction, innovation copyright, expectation, China, policy diffusion, innovation adoption]
     abstract: "A growing number of studies have paid attention to the dynamic nature of vertical government interactions in authoritarian China. Yet, less attention has been paid to the question of why higher-level governments play different roles in diverse cases of innovation adoptions. Building on the extant literature, this study introduces the concept of innovation copyright, that is, the perceived ownership of the innovation, to explain the different roles of higher-level government involvement in innovation adoption. A comparative case study of policy innovations in China highlights that if higher-level governments perceive that they own the innovation copyright, they act as proactive facilitators, and if higher-level governments perceive that the innovation copyright belongs to local governments, they are involved as political backers. The copyright structures the expectations of higher-level and local governments and as a consequence determines their roles in innovation adoptions."
 
@@ -141,6 +155,8 @@ published:
     url: "https://journals.sagepub.com/doi/full/10.1177/2059436418778306"
     doi: "10.1177/2059436418778306"
     pdf: "/publications/cultural-co-orientation/paper.pdf"
+    markdown: "/publications/cultural-co-orientation/paper.md"
+    figures: "/publications/cultural-co-orientation/figures/"
     tags: [Agenda setting, communication research methods, content analysis, mass media communication, political communication]
     abstract: "The freedom of press is one aspect that leaders from the West often criticise about China. As former British colony, Hong Kong has been able to preserve its special status with constitutional rights and liberties that also include the freedom of press. However, in recent years, sentiments of increased influence from Beijing have led to fears that it would curb the freedoms enjoyed by residents of the Special Administrative Region. However, instead of clear unambiguous interferences, Beijing has opted for an indirect approach that is predominantly characterised by the salience of economic considerations in reporting news binding the media outlets closer to the position of Beijing. This article shows that the South China Morning Post has undergone an editorial shift that moves it closer to the position of the Chinese government."
 
