@@ -11,7 +11,7 @@ permalink: /data/
 
 <div class="data-card">
   <h3>Parliamentary Elites in Authoritarian Regimes (PEAR)</h3>
-  <p>A dataset with more than 221,000 observations on individual MPs from 819 legislative terms in 130 authoritarian regimes from 1945 to 2024. The dataset covers biographical characteristics, career trajectories, and political positions of parliamentarians in non-democratic contexts.</p>
+  <p>A dataset with more than 230,000 observations on individual MPs from 882 legislative terms in 134 authoritarian regimes from 1945 to 2024. The dataset covers biographical characteristics, career trajectories, and political positions of parliamentarians in non-democratic contexts.</p>
   <div class="paper-links">
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5563678" class="paper-link" target="_blank">Working Paper (SSRN)</a>
   </div>
