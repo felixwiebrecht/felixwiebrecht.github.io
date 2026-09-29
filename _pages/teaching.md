@@ -19,6 +19,10 @@ permalink: /teaching/
     </div>
   </li>
   <li>
+    <span class="course-code">POLI243 — Authoritarian Politics</span><br>
+    <span class="course-institution">University of Liverpool &mdash; Undergraduate</span>
+  </li>
+  <li>
     <span class="course-code">POLI551 — Public Administration and Policy: Research Skills and Methods</span><br>
     <span class="course-institution">University of Liverpool &mdash; Master's</span>
     <div class="paper-links" style="margin-top:0.4rem">
