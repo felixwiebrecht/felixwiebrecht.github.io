@@ -162,7 +162,7 @@ h2.section-title {
 }
 
 .research-table th:first-child,
-.research-table td:first-child { width: 50%; }
+.research-table td:first-child { width: 48%; }
 
 .research-table th:nth-child(2),
 .research-table td:nth-child(2) { width: 15%; }
@@ -171,7 +171,7 @@ h2.section-title {
 .research-table td:nth-child(3) { width: 18%; }
 
 .research-table th:nth-child(4),
-.research-table td:nth-child(4) { width: 5%; }
+.research-table td:nth-child(4) { width: 7%; }
 
 .research-table th:nth-child(5),
 .research-table td:nth-child(5) { width: 12%; }
