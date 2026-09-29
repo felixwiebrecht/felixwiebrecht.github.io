@@ -1,5 +1,14 @@
 # Published Articles
 published:
+  - title: "Southeast Asia in Political Science: A Bibliometric Analysis"
+    year: "Forth&shy;coming"
+    journal: "Contemporary Southeast Asia"
+    tags: [Southeast Asia, political science, international relations, knowledge production, area studies]
+    abstract: "This article examines publications on Southeast Asia in Political Science over two decades (2003–23) to evaluate the region’s representation in the discipline and analyse trends in research methods and authorship patterns. Findings show that Southeast Asia’s overall presence in the discipline increased slightly over the period studied and that authorship trends largely followed disciplinary trends. Research on Southeast Asia has become more gender diverse, collaborative and international than ever before. In contrast, the use of quantitative methods has stalled since 2017. These patterns also vary by country. The findings have important implications for integrating Southeast Asia into Political Science and for knowledge production about and from the region."
+    pdf: "/publications/southeast-asia-in-political-science/paper.pdf"
+    markdown: "/publications/southeast-asia-in-political-science/paper.md"
+    figures: "/publications/southeast-asia-in-political-science/figures/"
+
   - title: "Parliamentary Elites in Authoritarian Regimes (PEAR): New Data"
     year: "Forth&shy;coming"
     journal: "Journal of Peace Research"
