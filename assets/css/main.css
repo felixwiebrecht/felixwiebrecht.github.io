@@ -349,6 +349,9 @@ h2.section-title {
 }
 
 /* Responsive */
+/* Labels shown only on phones, where table headers are hidden */
+.mobile-label { display: none; }
+
 @media (max-width: 640px) {
   .home-grid { grid-template-columns: 1fr; }
   .profile-photo { max-width: 160px; }
@@ -371,4 +374,5 @@ h2.section-title {
   .research-table .tags { margin-top: 0.3rem; }
   .paper-detail-row.open { display: block; border-bottom: 1px solid #eee; }
   .paper-detail-row td { display: block; padding: 0 0 1rem; }
+  .mobile-label { display: inline; color: #888; }
 }

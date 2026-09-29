@@ -37,7 +37,7 @@ permalink: /research/
       <td>
         {{ paper.journal }}
       </td>
-      <td>{{ paper.coauthors }}</td>
+      <td>{% if paper.coauthors %}<span class="mobile-label">Co-authors: </span>{{ paper.coauthors }}{% endif %}</td>
       <td>{{ paper.year }}</td>
       <td>
         <div class="tags">
@@ -95,7 +95,7 @@ permalink: /research/
           <div style="font-size:0.85rem; color:#666; margin-top:0.2rem;">{{ chapter.editors }}, {{ chapter.publisher }}</div>
       </td>
       <td>{{ chapter.book }}</td>
-      <td>{{ chapter.coauthors }}</td>
+      <td>{% if chapter.coauthors %}<span class="mobile-label">Co-authors: </span>{{ chapter.coauthors }}{% endif %}</td>
       <td>{{ chapter.year }}</td>
     </tr>
     {% endfor %}
@@ -126,7 +126,7 @@ permalink: /research/
           </div>
         </div>
       </td>
-      <td>{{ paper.coauthors }}</td>
+      <td>{% if paper.coauthors %}<span class="mobile-label">Co-authors: </span>{{ paper.coauthors }}{% endif %}</td>
       <td>
         {% if paper.status == "Revise & Resubmit" %}
           <span class="status status-rr">R&amp;R</span>

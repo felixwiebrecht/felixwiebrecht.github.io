@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  {% if page.asset_viewer %}<link rel="stylesheet" href="{{ '/assets/css/asset-viewer.css' | relative_url }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% if page.asset_viewer %}<link rel="stylesheet" href="{{ '/assets/css/asset-viewer.css' | relative_url }}?v={{ site.time | date: '%s' }}">{% endif %}
   {% seo %}
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-H604DMLEHY"></script>
@@ -39,8 +39,8 @@
     <p>Felix Wiebrecht &mdash; Lecturer in Politics, University of Liverpool &mdash; <a href="mailto:felix.wiebrecht@liverpool.ac.uk">felix.wiebrecht@liverpool.ac.uk</a></p>
   </footer>
 
-  <script src="{{ '/assets/js/abstracts.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/abstracts.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-  {% if page.asset_viewer %}<script src="{{ '/assets/js/asset-viewer.js' | relative_url }}"></script>{% endif %}
+  {% if page.asset_viewer %}<script src="{{ '/assets/js/asset-viewer.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
 </body>
 </html>
