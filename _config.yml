@@ -21,6 +21,15 @@ plugins:
 include:
   - _pages
 
+# Blog posts live in _posts/ (file name: YYYY-MM-DD-short-title.md) and appear at /blog/short-title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title/
+
 exclude:
   - Gemfile
   - Gemfile.lock

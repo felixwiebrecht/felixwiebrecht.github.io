@@ -11,7 +11,7 @@
   var CODEBOOK_URL = "https://dataverse.harvard.edu/file.xhtml?fileId=14413469";
   var NOTES_URL = "https://dataverse.harvard.edu/file.xhtml?fileId=14413465";
   // var CITATION = "Wiebrecht, Felix. Forthcoming. “Parliamentary Elites in Authoritarian Regimes (PEAR): New Data.” Journal of Peace Research.";
-  var CITATION = "Wiebrecht, Felix. 2026. “Parliamentary Elites in Authoritarian Regimes (PEAR): New Data.” Journal of Peace Research. https://doi.org/10.1093/jopres/xjag087";
+  var CITATION = "Wiebrecht, Felix. 2026. “Parliamentary Elites in Authoritarian Regimes: New Data.” Journal of Peace Research. https://doi.org/10.1093/jopres/xjag087";
   var DATA_URL = "/pear-dashboard/data/pear_country.json";
   var DEFAULT_TRENDS = [];  // countries pre-selected in the trends chart (none)
   var DEFAULT_PROFILE = "";  // country profile starts on the "Choose a country" prompt
