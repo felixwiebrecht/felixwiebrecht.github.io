@@ -350,19 +350,44 @@
     });
   }
 
+  // Plotly 2.35 leaves raw double quotes in some font-family styles (e.g. colour-bar ticks with "Source Serif 4"),
+  // which breaks the SVG and makes its own PNG/JPEG conversion fail. So: export SVG, repair the quotes, rasterise here.
+  function exportSvg(fig, w, h) {
+    return Plotly.toImage(fig, { format: "svg", width: w, height: h }).then(function (u) {
+      var s = decodeURIComponent(u.slice(u.indexOf(",") + 1));
+      return s.replace(/font-family: "([^"<>]*)"/g, "font-family: &quot;$1&quot;");
+    });
+  }
+  function svgUrl(s) { return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(s); }
+  function exportRaster(fig, w, h, kind) {
+    return exportSvg(fig, w, h).then(function (s) {
+      return new Promise(function (resolve, reject) {
+        var img = new Image(), scale = 2;
+        img.onload = function () {
+          var c = document.createElement("canvas"); c.width = w * scale; c.height = h * scale;
+          var ctx = c.getContext("2d"); ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, c.width, c.height);
+          ctx.drawImage(img, 0, 0, c.width, c.height);
+          resolve(c.toDataURL(kind === "jpeg" ? "image/jpeg" : "image/png", 0.95));
+        };
+        img.onerror = function () { reject(new Error("chart image could not be rendered")); };
+        img.src = svgUrl(s);
+      });
+    });
+  }
+
   function exportChart(card, gd, getTitle, kind) {
     var title = getTitle();
     var w = 1400, h = Math.round(1400 * gd.clientHeight / Math.max(gd.clientWidth, 1)) + 100;
     var fig = exportFigure(gd, title, w, h);
     var name = "PEAR_" + slug(title);
-    if (kind === "svg") return Plotly.toImage(fig, { format: "svg", width: w, height: h }).then(function (u) { saveUrl(u, name + ".svg"); });
-    if (kind === "png" || kind === "jpeg") return Plotly.toImage(fig, { format: kind, width: w, height: h, scale: 2 }).then(function (u) { saveUrl(u, name + (kind === "png" ? ".png" : ".jpg")); });
-    if (kind === "pdf") return Promise.all([Plotly.toImage(fig, { format: "png", width: w, height: h, scale: 2 }), loadJsPDF()]).then(function (res) {
+    if (kind === "svg") return exportSvg(fig, w, h).then(function (s) { saveUrl(svgUrl(s), name + ".svg"); });
+    if (kind === "png" || kind === "jpeg") return exportRaster(fig, w, h, kind).then(function (u) { saveUrl(u, name + (kind === "png" ? ".png" : ".jpg")); });
+    if (kind === "pdf") return Promise.all([exportRaster(fig, w, h, "png"), loadJsPDF()]).then(function (res) {
       var JsPDF = res[1], doc = new JsPDF({ orientation: w >= h ? "landscape" : "portrait", unit: "pt", format: [w, h] });
       doc.addImage(res[0], "PNG", 0, 0, w, h);
       doc.save(name + ".pdf");
     });
-    if (kind === "print") return Plotly.toImage(fig, { format: "png", width: w, height: h, scale: 2 }).then(function (u) {
+    if (kind === "print") return exportRaster(fig, w, h, "png").then(function (u) {
       var f = el("iframe", { title: "print", "aria-hidden": "true" });
       f.style.position = "fixed"; f.style.width = "0"; f.style.height = "0"; f.style.border = "0";
       document.body.appendChild(f);
@@ -391,7 +416,7 @@
       var b = el("button", { type: "button", role: "menuitem" }, it[1]);
       b.addEventListener("click", function () {
         close();
-        Promise.resolve(exportChart(card, gd, getTitle, it[0])).catch(function (e) { $("pd-status").textContent = "Export failed: " + e.message; });
+        Promise.resolve(exportChart(card, gd, getTitle, it[0])).catch(function (e) { $("pd-status").textContent = "Export failed: " + ((e && e.message) || "the chart image could not be created"); });
       });
       li.appendChild(b); menu.appendChild(li);
     });
