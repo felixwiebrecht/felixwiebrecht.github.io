@@ -1,0 +1,240 @@
+/* PEAR dashboard. Light only, like the rest of the site. */
+.page-content:has(.pear-dash) { max-width: 1180px; }
+
+.pear-dash {
+  --surface: #ffffff;
+  --plane: #f9f9f7;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --ring: rgba(11, 11, 11, 0.10);
+  --accent: #2a5db0;
+  --series-1: #2a78d6;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+}
+
+.pd-preview-banner {
+  background: #fff4d6; border: 1px solid #f0d58a; color: #5a4300;
+  padding: 0.45rem 0.8rem; border-radius: 6px; font-size: 0.85rem; margin-bottom: 1.2rem;
+}
+
+.pd-header h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 2rem; margin-bottom: 0.6rem; }
+.pd-lede { font-family: "Source Serif 4", Georgia, serif; font-size: 1.05rem; color: #333; max-width: 60rem; margin-bottom: 0.6rem; }
+.pd-cite { font-size: 0.85rem; color: var(--ink-2); margin-bottom: 0.9rem; }
+.pd-version { font-size: 0.85rem; color: var(--ink-2); margin: -0.5rem 0 0.9rem; }
+.pd-version:empty { display: none; }
+.pd-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.6rem; }
+
+.pd-btn {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  font: inherit; font-size: 0.88rem; line-height: 1.2;
+  padding: 0.5rem 0.85rem; border-radius: 6px;
+  border: 1px solid var(--axis); background: var(--surface); color: var(--ink);
+  cursor: pointer; text-decoration: none;
+}
+.pd-btn:hover { background: var(--plane); text-decoration: none; }
+.pd-btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.pd-btn-primary:hover { background: #234f97; }
+.pd-btn[aria-disabled="true"], .pd-btn:disabled { opacity: 0.5; cursor: not-allowed; pointer-events: none; }
+
+.pd-controls {
+  display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1rem 1.5rem;
+  padding: 1rem 0; border-top: 1px solid var(--grid); border-bottom: 1px solid var(--grid);
+  margin-bottom: 1rem;
+}
+.pd-control { display: flex; flex-direction: column; gap: 0.3rem; }
+.pd-control label, .pd-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2); }
+.pd-control select, .pd-control input[type="search"], .pd-control input[type="number"], .pd-add input {
+  font: inherit; font-size: 0.92rem; padding: 0.45rem 0.6rem;
+  border: 1px solid var(--axis); border-radius: 6px; background: var(--surface); color: var(--ink);
+}
+#pd-var { min-width: 20rem; max-width: 100%; }
+.pd-control input[type="number"] { width: 6.5rem; }
+.pd-var-desc { flex-basis: 100%; font-size: 0.85rem; color: var(--ink-2); margin: 0; }
+
+.pd-segmented { display: inline-flex; border: 1px solid var(--axis); border-radius: 6px; overflow: hidden; }
+.pd-segmented button {
+  font: inherit; font-size: 0.88rem; padding: 0.45rem 0.8rem; border: 0; background: var(--surface);
+  color: var(--ink); cursor: pointer; border-right: 1px solid var(--grid);
+}
+.pd-segmented button:last-child { border-right: 0; }
+.pd-segmented button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.pd-segmented button:disabled { color: var(--muted); cursor: not-allowed; background: var(--plane); }
+
+.pd-tabs { display: flex; flex-wrap: wrap; gap: 0.25rem; border-bottom: 1px solid var(--grid); margin-bottom: 1rem; }
+.pd-tabs button {
+  font: inherit; font-size: 0.95rem; padding: 0.55rem 0.9rem; border: 0; background: none; color: var(--ink-2);
+  cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.pd-tabs button[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.pd-tabs button:focus-visible, .pd-btn:focus-visible, .pd-segmented button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.pd-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1rem 1.5rem; margin-bottom: 0.8rem; }
+.pd-push { margin-left: auto; }
+.pd-year { flex: 1 1 22rem; }
+.pd-year input { width: 100%; accent-color: var(--accent); }
+.pd-year strong { color: var(--ink); font-size: 1rem; text-transform: none; letter-spacing: 0; margin-left: 0.3rem; }
+
+.pd-chart { width: 100%; height: 460px; }
+.pd-chart-map { height: 520px; }
+.pd-note { font-size: 0.82rem; color: var(--ink-2); margin-top: 0.6rem; }
+.pd-map-key { display: flex; flex-wrap: wrap; gap: 1.2rem; font-size: 0.82rem; color: var(--ink-2); }
+.pd-map-key span { display: inline-flex; align-items: center; gap: 0.4rem; }
+.pd-swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px; box-shadow: inset 0 0 0 1px var(--ring); }
+.pd-sw-missing { background: #cfcdc5; }
+.pd-sw-none { background: #f3f2ef; }
+
+.pd-add { display: flex; gap: 0.4rem; }
+.pd-add input { width: 16rem; }
+.pd-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.pd-chip {
+  display: inline-flex; align-items: center; gap: 0.45rem; font-size: 0.88rem;
+  padding: 0.3rem 0.35rem 0.3rem 0.6rem; border: 1px solid var(--grid); border-radius: 999px; background: var(--surface);
+}
+.pd-chip .pd-key { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+.pd-chip button {
+  border: 0; background: none; cursor: pointer; font-size: 1rem; line-height: 1; color: var(--ink-2);
+  width: 24px; height: 24px; border-radius: 50%;
+}
+.pd-chip button:hover { background: var(--plane); color: var(--ink); }
+
+.pd-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0.8rem; margin: 0.4rem 0 1.2rem; }
+.pd-tile { border: 1px solid var(--grid); border-radius: 8px; padding: 0.8rem 0.9rem; background: var(--surface); }
+.pd-tile .pd-tile-label { font-size: 0.78rem; color: var(--ink-2); }
+.pd-tile .pd-tile-value { font-size: 1.6rem; font-weight: 600; margin-top: 0.15rem; }
+.pd-tile .pd-tile-sub { font-size: 0.78rem; color: var(--muted); }
+.pd-multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr)); gap: 0.8rem 1.2rem; margin-bottom: 1.2rem; }
+.pd-multiples > div { min-width: 0; }
+.pd-multiples .pd-chart { height: 240px; }
+.pd-mini-title { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.1rem; }
+
+.pd-table-wrap { overflow-x: auto; border: 1px solid var(--grid); border-radius: 8px; }
+.pd-table { width: 100%; border-collapse: collapse; font-size: 0.86rem; font-variant-numeric: tabular-nums; }
+.pd-table th, .pd-table td { padding: 0.45rem 0.7rem; text-align: left; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+.pd-table th { background: var(--plane); font-weight: 600; color: var(--ink-2); position: sticky; top: 0; }
+.pd-table td.pd-num, .pd-table th.pd-num { text-align: right; }
+.pd-table tr:last-child td { border-bottom: 0; }
+.pd-table tbody tr:hover td { background: #fbfbfa; }
+.pd-na { color: var(--muted); }
+.pd-status { font-size: 0.9rem; color: var(--ink-2); }
+
+@media (max-width: 640px) {
+  #pd-var { min-width: 0; width: 100%; }
+  .pd-control { flex: 1 1 100%; }
+  .pd-segmented { flex-wrap: wrap; }
+  .pd-add input { width: 100%; }
+  .pd-chart { height: 360px; }
+  .pd-chart-map { height: 300px; }
+  .pd-push { margin-left: 0; }
+}
+
+/* Chart menu (full screen, print, export) */
+.pd-chart-card { position: relative; background: var(--surface); }
+.pd-menu-btn {
+  position: absolute; top: 4px; right: 4px; z-index: 5;
+  width: 32px; height: 32px; border: 1px solid var(--grid); border-radius: 6px;
+  background: var(--surface); color: var(--ink-2); font-size: 1.05rem; line-height: 1; cursor: pointer;
+}
+.pd-menu-btn:hover, .pd-menu-btn[aria-expanded="true"] { background: var(--plane); color: var(--ink); }
+.pd-menu {
+  position: absolute; top: 40px; right: 4px; z-index: 6; min-width: 13.5rem;
+  background: var(--surface); border: 1px solid var(--axis); border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(11, 11, 11, 0.12); padding: 0.35rem 0; list-style: none;
+}
+.pd-menu[hidden] { display: none; }
+.pd-menu li[role="separator"] { border-top: 1px solid var(--grid); margin: 0.35rem 0; }
+.pd-menu button {
+  display: block; width: 100%; text-align: left; font: inherit; font-size: 0.9rem;
+  padding: 0.45rem 0.9rem; border: 0; background: none; color: var(--ink); cursor: pointer;
+}
+.pd-menu button:hover, .pd-menu button:focus-visible { background: var(--plane); outline: none; }
+.pd-chart-card:fullscreen { padding: 24px; display: flex; flex-direction: column; }
+.pd-chart-card:fullscreen .pd-chart { flex: 1 1 auto; height: auto; }
+
+/* Country combobox (replaces the browser datalist, which doesn't scroll reliably) */
+.pd-combo { position: relative; }
+.pd-combo input { width: 16rem; }
+.pd-combo-list {
+  position: absolute; top: calc(100% + 4px); left: 0; z-index: 20; width: 100%; min-width: 14rem;
+  max-height: 16rem; overflow-y: auto; overscroll-behavior: contain;
+  margin: 0; padding: 0.25rem 0; list-style: none;
+  background: var(--surface); border: 1px solid var(--axis); border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(11, 11, 11, 0.12);
+}
+.pd-combo-list[hidden] { display: none; }
+.pd-combo-list li { padding: 0.4rem 0.7rem; font-size: 0.9rem; cursor: pointer; }
+.pd-combo-list li[aria-selected="true"], .pd-combo-list li:hover { background: var(--plane); }
+.pd-combo-list li.pd-combo-empty { color: var(--muted); cursor: default; }
+@media (max-width: 640px) { .pd-combo, .pd-combo input { width: 100%; } }
+
+.pd-empty { font-size: 0.95rem; color: var(--muted); padding: 2.5rem 0; text-align: center; border: 1px dashed var(--grid); border-radius: 8px; }
+
+/* Explained dashes in tables */
+.pd-tip { cursor: help; border-bottom: 1px dotted var(--muted); padding: 0 0.15rem; }
+.pd-tip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.pd-tipbox {
+  position: fixed; z-index: 50; max-width: 18rem; pointer-events: none;
+  background: #fff; color: var(--ink); border: 1px solid var(--grid); border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(11, 11, 11, 0.12); padding: 0.35rem 0.6rem;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif; font-size: 0.8rem; line-height: 1.35;
+}
+.pd-tipbox[hidden] { display: none; }
+
+/* ---- Site-style overrides (approved by Felix 2026-11-07): Georgia, plain greys, square corners, ruled tiles/table ---- */
+
+/* 1. Plain neutral greys like main.css instead of the warm "stone" palette */
+.pear-dash {
+  --plane: #f5f5f5;
+  --ink: #222;
+  --ink-2: #444;
+  --muted: #777;
+  --grid: #e6e6e6;
+  --axis: #bbb;
+  --series-1: #2a5db0;
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+/* 2. Square corners, no floating shadows */
+.pd-btn, .pd-segmented, .pd-control select, .pd-control input[type="search"],
+.pd-control input[type="number"], .pd-add input, .pd-menu-btn, .pd-menu,
+.pd-combo-list, .pd-tile, .pd-table-wrap, .pd-empty, .pd-tipbox, .pd-preview-banner { border-radius: 2px; }
+.pd-menu, .pd-combo-list, .pd-tipbox { box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+.pd-tipbox { font-family: "Source Serif 4", Georgia, serif; }
+
+/* 3. Labels in sentence case, not small uppercase with letter spacing */
+.pd-control label, .pd-label {
+  text-transform: none; letter-spacing: 0; font-size: 0.9rem; font-style: italic; color: var(--ink-2);
+}
+
+/* 4. Header: plainer, like an article page */
+.pd-header h1 { font-weight: normal; border-bottom: 1px solid #ddd; padding-bottom: 0.4rem; }
+.pd-lede { color: var(--ink); }
+
+/* 5. Tabs: plain text links with the site's nav underline, not app-style tabs */
+.pd-tabs { gap: 1.5rem; }
+.pd-tabs button { padding: 0.4rem 0; font-size: 1rem; }
+
+/* 6. Country profile figures: a ruled row of numbers instead of KPI cards */
+.pd-tiles { gap: 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--grid); }
+.pd-tile { border: 0; border-right: 1px solid var(--grid); background: none; padding: 0.7rem 0.9rem; }
+.pd-tile:last-child { border-right: 0; }
+.pd-tile .pd-tile-value { font-weight: normal; font-size: 1.7rem; }
+.pd-mini-title { font-weight: normal; font-style: italic; }
+
+/* 7. Country chips: square tags, not round pills */
+.pd-chip { border-radius: 2px; border-color: var(--axis); }
+
+/* 8. Table: booktabs-style rules (like the LaTeX tables in the papers) */
+.pd-table-wrap { border: 0; border-top: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
+.pd-table th { background: none; color: var(--ink); border-bottom: 1px solid var(--ink); }
+.pd-table tbody tr:hover td { background: #f7f7f7; }
+
+/* 9. Buttons and controls in the site's sans font, like the buttons on the Research/Data pages (Felix 2026-11-12) */
+.pd-btn, .pd-segmented, .pd-segmented button, .pd-tabs button,
+.pd-control select, .pd-control input, .pd-add input, .pd-combo-list, .pd-combo-list *,
+.pd-menu-btn, .pd-menu, .pd-menu *, .pd-chip, .pd-chip * {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+}

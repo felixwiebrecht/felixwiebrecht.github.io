@@ -299,7 +299,7 @@ const label = svg.append("g")
   .join("text")
   .text(d => d.id)
   .attr("font-size", "11px")
-  .attr("font-family", "Helvetica Neue, Arial, sans-serif")
+  .attr("font-family", "Source Sans 3, Helvetica Neue, Arial, sans-serif")
   .attr("fill", "#333")
   .attr("dx", d => nodeRadius(d) + 4)
   .attr("dy", "0.35em");
@@ -366,7 +366,7 @@ function dragended(event, d) {
 <style>
 #network-controls { margin-bottom: 1rem; }
 #network-controls select {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.9rem;
   padding: 0.3rem 0.6rem;
   border: 1px solid #ccc;

@@ -8,7 +8,7 @@
   --asset-link: #2a5db0;
   --asset-active: #2a5db0;
   --asset-active-text: #ffffff;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
 }
 
 .asset-page .asset-local-nav { margin-bottom: 1.2em; }
@@ -19,7 +19,7 @@
   font-size: 1.6em;
   line-height: 1.2;
   margin: 0 0 0.25em;
-  font-family: "Georgia", serif;
+  font-family: "Source Serif 4", Georgia, serif;
 }
 
 .asset-page .subtitle {

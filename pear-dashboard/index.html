@@ -1,0 +1,98 @@
+---
+layout: default
+title: PEAR Data Explorer
+permalink: /pear/
+---
+<!-- PEAR dashboard. Kept out of Git via .git/info/exclude until PEAR is
+     published. At launch: remove the preview banner below, set RELEASE_URL in
+     dashboard.js, remove "pear-dashboard/" from .git/info/exclude, commit. -->
+<link rel="stylesheet" href="{{ '/pear-dashboard/dashboard.css' | relative_url }}">
+
+<div class="pear-dash">
+
+
+  <header class="pd-header">
+    <h1>PEAR Data Explorer</h1>
+    <p class="pd-lede">Parliamentary Elites in Authoritarian Regimes (PEAR) covers members of parliament in authoritarian regimes worldwide since 1945. Explore who sits in authoritarian legislatures: their age, gender, party affiliation, and how many keep their seats from one term to the next.</p>
+    <p class="pd-cite"><strong>Cite as:</strong> <span id="pd-citation"></span></p>
+    <p class="pd-version" id="pd-version"></p>
+    <div class="pd-actions">
+      <a id="pd-release" class="pd-btn pd-btn-primary" href="#" target="_blank" rel="noopener">Download the dataset</a>
+      <a class="pd-btn" href="{{ '/publications/pear/paper.pdf' | relative_url }}" target="_blank">Article (PDF)</a>
+      <a id="pd-codebook" class="pd-btn" href="#" target="_blank" rel="noopener">Codebook</a>
+      <a id="pd-notes" class="pd-btn" href="#" target="_blank" rel="noopener">Country notes</a>
+    </div>
+  </header>
+
+  <section class="pd-controls" aria-label="Variable and group">
+    <div class="pd-control">
+      <label for="pd-var">Variable</label>
+      <select id="pd-var"></select>
+    </div>
+    <div class="pd-control">
+      <span class="pd-label" id="pd-group-label">Group</span>
+      <div class="pd-segmented" role="group" aria-labelledby="pd-group-label" id="pd-group"></div>
+    </div>
+    <p class="pd-var-desc" id="pd-var-desc"></p>
+  </section>
+
+  <nav class="pd-tabs" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="true">World map</button>
+    <button role="tab" id="tab-trends" aria-controls="panel-trends" aria-selected="false">Trends over time</button>
+    <button role="tab" id="tab-profile" aria-controls="panel-profile" aria-selected="false">Country profile</button>
+  </nav>
+
+  <section class="pd-panel" role="tabpanel" id="panel-map" aria-labelledby="tab-map">
+    <div class="pd-row">
+      <div class="pd-control pd-year">
+        <label for="pd-year">Year <strong id="pd-year-out"></strong></label>
+        <input type="range" id="pd-year" min="1945" max="2024" step="1">
+      </div>
+    </div>
+    <div class="pd-chart-card" id="pd-map-card"><div id="pd-map" class="pd-chart pd-chart-map"></div></div>
+    <div class="pd-map-key">
+      <span><i class="pd-swatch pd-sw-missing"></i><span id="pd-missing-label">PEAR term, no data for this variable</span></span>
+      <span><i class="pd-swatch pd-sw-none"></i>No PEAR term in this year</span>
+    </div>
+    <p class="pd-note">Each country shows the legislative term in office in the selected year. Historical states are drawn with the borders of their successor (e.g. the Soviet Union as Russia, Czechoslovakia as Czechia, Yugoslavia as Serbia); the German Democratic Republic cannot be drawn and appears only in the other views.</p>
+  </section>
+
+  <section class="pd-panel" role="tabpanel" id="panel-trends" aria-labelledby="tab-trends" hidden>
+    <div class="pd-row">
+      <div class="pd-control">
+        <label for="pd-add-country">Add a country (up to 6)</label>
+        <div class="pd-add">
+          <div class="pd-combo"><input id="pd-add-country" placeholder="Type or pick a country" autocomplete="off"></div>
+          <button class="pd-btn" id="pd-add-btn" type="button">Add</button>
+        </div>
+      </div>
+      <div class="pd-chips" id="pd-chips" aria-live="polite"></div>
+    </div>
+    <div class="pd-chart-card" id="pd-trends-card"><div id="pd-trends" class="pd-chart"></div></div>
+    <p class="pd-note" id="pd-trends-note">Each point is one legislative term, placed at the year of its election. Gaps mean no data for that term.</p>
+  </section>
+
+  <section class="pd-panel" role="tabpanel" id="panel-profile" aria-labelledby="tab-profile" hidden>
+    <div class="pd-row">
+      <div class="pd-control">
+        <label for="pd-profile-country">Country</label>
+        <select id="pd-profile-country"></select>
+      </div>
+    </div>
+    <p class="pd-empty" id="pd-profile-empty">Choose a country to see its profile.</p>
+    <div id="pd-profile-body" hidden>
+      <div class="pd-tiles" id="pd-tiles"></div>
+      <div class="pd-multiples" id="pd-multiples"></div>
+      <div class="pd-table-wrap">
+        <table class="pd-table" id="pd-profile-table"></table>
+      </div>
+      <p class="pd-note">Values are shown only for terms with 95&ndash;105% coverage of the relevant information: gender for women MPs, age for mean age, party affiliation for opposition seat share and number of parties. Other values appear as &ldquo;&ndash;&rdquo;; point at (or tap) a dash in the table to see why.</p>
+    </div>
+  </section>
+
+
+  <div class="pd-status" id="pd-status" role="status"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script>
+<script src="{{ '/pear-dashboard/dashboard.js' | relative_url }}"></script>

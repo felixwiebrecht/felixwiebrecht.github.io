@@ -11,10 +11,10 @@ permalink: /data/
 
 <div class="data-card">
   <h3>Parliamentary Elites in Authoritarian Regimes (PEAR)</h3>
-  <p>A dataset with more than 230,000 observations on individual MPs from 882 legislative terms in 133 authoritarian regimes from 1945 to 2024. The dataset covers biographical characteristics, career trajectories, and political positions of parliamentarians in non-democratic contexts.</p>
+  <p>A dataset on individual MPs in authoritarian legislatures worldwide since 1945. The dataset covers biographical characteristics, career trajectories, and political positions of parliamentarians in non-democratic contexts. See the <a href="{{ '/pear/' | relative_url }}">PEAR page</a> for more details and to explore the data.</p>
   <p><em>Cite as:</em> Wiebrecht, F. (2026). "Parliamentary Elites in Authoritarian Regimes: New Data." <em>Journal of Peace Research</em>. doi:10.1093/jopres/xjag087</p>
   <div class="paper-links">
-    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HPWWPD" class="paper-link" target="_blank">Dataset (Harvard Dataverse)</a>
+    <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UKEBMH" class="paper-link" target="_blank">Dataset (Harvard Dataverse)</a>
   </div>
 </div>
 
