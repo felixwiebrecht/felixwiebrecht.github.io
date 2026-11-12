@@ -42,6 +42,10 @@ The PEAR Data Explorer is at [felixwiebrecht.com/pear](/pear/). It has three vie
 - **Trends over time.** Compare up to six countries on any variable, for all MPs or separately for the ruling party, its allies or the opposition.
 - **Country profile.** A parliament-by-parliament summary for a single country.
 
+<figure>
+  <a href="/pear/"><img src="/assets/images/blog/pear-map.png" alt="World map from the PEAR Data Explorer showing the share of women MPs in authoritarian parliaments in 2020, by country"></a>
+</figure>
+
 A note on gaps. Age and party information is not available for every MP. The Explorer therefore only shows figures based on age, gender or party where PEAR covers nearly all seats in that parliament. Elsewhere, it shows how complete the data are instead of a potentially misleading number. Charts can be downloaded as PNG, JPEG, PDF or SVG, and the full dataset, codebook and article are linked on the page.
 
 The data may be useful to journalists, analysts and anyone working on democracy support or foreign policy, as well as to researchers.

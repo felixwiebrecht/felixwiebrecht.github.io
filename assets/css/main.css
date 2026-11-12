@@ -407,3 +407,5 @@ h2.section-title {
 }
 
 .post-cite { font-size: 0.92rem; color: #555; margin-top: 2rem; }
+.post-body figure { margin: 1.6rem 0; }
+.post-body figure img { border: 1px solid #e6e6e6; }
